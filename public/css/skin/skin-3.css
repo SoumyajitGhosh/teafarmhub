@@ -1,0 +1,16 @@
+/*===================== Primary bg color - Tea Farm Hub Theme =====================*/
+[data-theme-color="skin-3-theme"] {
+  --color-primary: #8b674f;        /* Shadow - Main brand color (was #fdb400) */
+  --color-secondry: #3a2e17;       /* Black Marlin - Dark accent (was #825c00) */
+  --color-hover: #a37d63;          /* Lighter Shadow for hover (was #e9ad1a) */
+  --rgba-primary-1: rgba(139, 103, 79, 0.1);   /* Shadow with 10% opacity */
+  --rgba-primary-2: rgba(139, 103, 79, 0.2);   /* Shadow with 20% opacity */
+  --rgba-primary-3: rgba(139, 103, 79, 0.3);   /* Shadow with 30% opacity */
+  --rgba-primary-4: rgba(139, 103, 79, 0.4);   /* Shadow with 40% opacity */
+  --rgba-primary-5: rgba(139, 103, 79, 0.5);   /* Shadow with 50% opacity */
+  --rgba-primary-6: rgba(139, 103, 79, 0.6);   /* Shadow with 60% opacity */
+  --rgba-primary-7: rgba(139, 103, 79, 0.7);   /* Shadow with 70% opacity */
+  --rgba-primary-8: rgba(139, 103, 79, 0.8);   /* Shadow with 80% opacity */
+  --rgba-primary-9: rgba(139, 103, 79, 0.9);   /* Shadow with 90% opacity */
+  --text-sec: #3a2e17;             /* Black Marlin - Secondary text (was #2d3239) */
+}

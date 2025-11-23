@@ -1,0 +1,33 @@
+import Footer from "@/components/footer";
+import Header from "@/components/header";
+import About from "@/components/homes/About";
+import Blogs from "@/components/blogs/Blog4";
+import Hero from "@/components/homes/Hero";
+import Portfolio from "@/components/homes/Portfolio";
+import Servies from "@/components/homes/Servies";
+import Team from "@/components/homes/Team";
+import Testimonials from "@/components/homes/Testimonials";
+export const metadata = {
+  title: "Home || Industry - Factory & Industrial React Nextjs Template",
+  description: "Industry - Factory & Industrial React Nextjs Template",
+};
+
+export default function Home() {
+  return (
+     <div className="page-wraper roboto-condensed  ">
+      <Header />
+      <Hero />
+      <div className="page-content bg-white">
+        <div className="content-block">
+          <About />
+          <Servies />
+          <Portfolio />
+          <Team />
+          <Blogs />
+          <Testimonials />
+        </div>
+      </div>
+      <Footer />
+    </div>
+  );
+}
