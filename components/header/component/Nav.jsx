@@ -99,18 +99,18 @@ export default function Nav() {
       <li
         className={` has-mega-menu homedemo ${
           menuOpen1 == "home" ? "open" : ""
-          } ${isMenuActive("/") ? "active" : ""}`}
-        onClick={() => setMenuOpen1((pre) => (pre == "home" ? "" : "home"))} 
+        } ${isMenuActive("/") ? "active" : ""}`}
+        onClick={() => setMenuOpen1((pre) => (pre == "home" ? "" : "home"))}
       >
         <Link href="/">
           Home
-          <i className="fas fa-chevron-down"  />
+          <i className="fas fa-chevron-down" />
         </Link>
       </li>
       <li
-        className={`has-mega-menu  ${
-          isMenuActive("/about") ? "active" : ""
-        } ${menuOpen1 == "pages" ? "open" : ""}  `}
+        className={`has-mega-menu  ${isMenuActive("/about") ? "active" : ""} ${
+          menuOpen1 == "pages" ? "open" : ""
+        }  `}
       >
         <Link
           href={"/about"}
@@ -121,85 +121,40 @@ export default function Nav() {
         </Link>
       </li>
       <li
-        className={`has-mega-menu  ${
-          isMenuActive("/blog") ? "active" : ""
-        } ${menuOpen1 == "pages" ? "open" : ""}  `}
+        className={`has-mega-menu  ${isMenuActive("/blog") ? "active" : ""} ${
+          menuOpen1 == "pages" ? "open" : ""
+        }  `}
       >
         <Link
           href={"/blog"}
           onClick={() => setMenuOpen1((pre) => (pre == "pages" ? "" : "pages"))}
         >
-            Blogs
+          Blogs
           <i className="fas fa-chevron-down" />
         </Link>
       </li>
       <li
-        className={` ${isMenuActive(shopLinks) ? "active" : ""} ${
+        className={` ${isMenuActive("/shop") ? "active" : ""} ${
           menuOpen1 == "shop" ? "open" : ""
         }  `}
       >
-        <a onClick={() => setMenuOpen1((pre) => (pre == "shop" ? "" : "shop"))}>
+        <Link
+          onClick={() => setMenuOpen1((pre) => (pre == "shop" ? "" : "shop"))}
+          href={"/shop"}
+        >
           Shop
           <i className="fas fa-chevron-down" />
-        </a>
-        <ul className="sub-menu">
-          {shopLinks.map((link, index) => (
-            <li key={index}>
-              <Link
-                className={isMenuActive(link) ? "menuActive" : ""}
-                href={link.href}
-              >
-                {link.label}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </li>
-      <li
-        className={`has-mega-menu  ${
-          isMenuActive(elementItems) ? "active" : ""
-        } ${menuOpen1 == "element" ? "open" : ""}  `}
-      >
-        <a
-          onClick={() =>
-            setMenuOpen1((pre) => (pre == "element" ? "" : "element"))
-          }
-        >
-          Element
-          <i className="fas fa-chevron-down" />
-        </a>
-        <ul className="mega-menu">
-          {elementItems.map((item, index) => (
-            <li key={index}>
-              <a>{item.title}</a>
-              <ul>
-                {item.links.map((link, idx) => (
-                  <li key={idx}>
-                    <Link
-                      className={isMenuActive(link) ? "menuActive" : ""}
-                      href={link.href}
-                    >
-                      <i className={link.iconClass} /> {link.label}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </li>
-          ))}
-        </ul>
+        </Link>
       </li>
       <li
         className={` ${isMenuActive(contactLinks) ? "active" : ""} ${
           menuOpen1 == "contact" ? "open" : ""
-          }  ${isMenuActive("/contact") ? "active" : ""}`}
+        }  ${isMenuActive("/contact") ? "active" : ""}`}
         onClick={() =>
-            setMenuOpen1((pre) => (pre == "contact" ? "" : "contact"))
-          }
+          setMenuOpen1((pre) => (pre == "contact" ? "" : "contact"))
+        }
       >
-        <Link
-          
-          href={"/contact"}
-        >
+        <Link href={"/contact"}>
           Contact Us
           <i className="fas fa-chevron-down" />
         </Link>

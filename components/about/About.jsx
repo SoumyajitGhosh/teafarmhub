@@ -8,8 +8,11 @@ export default function About() {
   return (
     <>
       <div
-        className="section-full content-inner bg-white video-section"
-        style={{ backgroundImage: 'url("/images/background/bg-video.png")' }}
+        className="section-full content-inner video-section"
+        style={{
+          backgroundImage: 'url("/images/background/bg-video.png")',
+          background: "#fbf8e8",
+        }}
       >
         <div className="container">
           <div className="section-content">

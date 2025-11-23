@@ -6,9 +6,9 @@ import Image from "next/image";
 import Link from "next/link";
 const filterItems = [
   { filter: "*", label: "All" },
-  { filter: ".beer-keg", label: "Beer Keg" },
-  { filter: ".brewing", label: "Brewing" },
-  { filter: ".malt", label: "Malt" },
+  { filter: ".beer-keg", label: "Green Tea" },
+  { filter: ".brewing", label: "Black Tea" },
+  { filter: ".malt", label: "Oolong Tea" },
 ];
 
 export default function Portfolio() {
@@ -43,14 +43,17 @@ export default function Portfolio() {
     initIsotop();
   }, []);
   return (
-    <div className="section-full bg-white content-inner">
+    <div
+      className="section-full content-inner"
+      style={{ background: "#fbf8e8" }}
+    >
       <div className="container">
         <div className="section-head text-center">
           <h2 className="title">Our Gallery</h2>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry has been the industry's standard dummy text ever since the
-            been when an unknown printer.
+            Explore our tea gardens, processing facilities, and the finest
+            varieties we cultivate. Each image tells a story of dedication,
+            tradition, and the pursuit of exceptional tea quality.
           </p>
         </div>
         <div className="row">

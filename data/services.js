@@ -1,87 +1,87 @@
 export const services = [
   {
     id: 1,
-    title: "Agricultural Processing",
+    title: "Organic Tea Cultivation",
     imageSrc: "/images/our-services/pic3.jpg",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the book.",
+      "Sustainable organic farming practices ensuring premium quality tea leaves grown without harmful pesticides or chemicals.",
   },
   {
     id: 2,
-    title: "Material Engineering",
+    title: "Tea Processing & Manufacturing",
     imageSrc: "/images/our-services/pic2.jpg",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the book.",
+      "Expert orthodox and CTC tea processing methods preserving the authentic flavor and aroma of our highland teas.",
   },
   {
     id: 3,
-    title: "Petroleum Engineering",
+    title: "Tea Tasting & Quality Control",
     imageSrc: "/images/our-services/pic1.jpg",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the book.",
+      "Professional tea cupping and quality assurance services ensuring only the finest grades reach our customers.",
   },
   {
     id: 4,
-    title: "Agricultural Processing",
+    title: "Custom Tea Blending",
     imageSrc: "/images/our-services/pic3.jpg",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the book.",
+      "Artisanal tea blending services creating unique flavor profiles tailored to your preferences and requirements.",
   },
   {
     id: 5,
-    title: "Material Engineering",
+    title: "Tea Estate Tours",
     imageSrc: "/images/our-services/pic2.jpg",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the book.",
+      "Guided plantation tours offering immersive experiences into tea cultivation, processing, and tasting traditions.",
   },
   {
     id: 6,
-    title: "Petroleum Engineering",
+    title: "Wholesale Tea Distribution",
     imageSrc: "/images/our-services/pic1.jpg",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the book.",
+      "Bulk tea supply services for retailers, cafés, and businesses seeking authentic highland tea varieties.",
   },
   {
     id: 7,
-    title: "Agricultural Processing",
+    title: "Tea Packaging Solutions",
     imageSrc: "/images/our-services/pic3.jpg",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the book.",
+      "Professional tea packaging services maintaining freshness and quality from our gardens to your customers.",
   },
   {
     id: 8,
-    title: "Material Engineering",
+    title: "Tea Consultancy Services",
     imageSrc: "/images/our-services/pic2.jpg",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the book.",
+      "Expert guidance on tea cultivation, processing techniques, and market strategies for aspiring tea producers.",
   },
   {
     id: 9,
-    title: "Petroleum Engineering",
+    title: "Private Label Tea",
     imageSrc: "/images/our-services/pic1.jpg",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the book.",
+      "Custom private labeling services allowing businesses to offer premium tea under their own brand identity.",
   },
   {
     id: 10,
-    title: "Agricultural Processing",
+    title: "Tea Education Workshops",
     imageSrc: "/images/our-services/pic3.jpg",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the book.",
+      "Educational programs teaching tea appreciation, brewing techniques, and the rich history of tea culture.",
   },
   {
     id: 11,
-    title: "Material Engineering",
+    title: "Export Services",
     imageSrc: "/images/our-services/pic2.jpg",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the book.",
+      "International tea export services connecting our premium highland teas with global markets and connoisseurs.",
   },
   {
     id: 12,
-    title: "Petroleum Engineering",
+    title: "Sustainable Farming Consultation",
     imageSrc: "/images/our-services/pic1.jpg",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the book.",
+      "Expert advice on implementing sustainable and biodynamic farming practices for tea cultivation excellence.",
   },
 ];
 
@@ -790,9 +790,9 @@ export const services7 = [
   {
     id: 101,
     icon: "flaticon-boiler",
-    title: "Beer Boiler",
+    title: "Tea Withering",
     description:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod",
+      "Controlled moisture reduction process that initiates enzymatic changes essential for developing tea's distinctive flavors",
     animation: "fadeInLeft",
     delay: "0.3s",
     dataName: "01",
@@ -800,9 +800,9 @@ export const services7 = [
   {
     id: 102,
     icon: "flaticon-pint-of-beer",
-    title: "Pint Of Beer",
+    title: "Tea Rolling",
     description:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod",
+      "Traditional hand-rolling and mechanical rolling techniques that shape leaves and release essential oils for optimal flavor",
     animation: "fadeInDown",
     delay: "0.3s",
     dataName: "02",
@@ -810,9 +810,9 @@ export const services7 = [
   {
     id: 103,
     icon: "flaticon-beer-keg",
-    title: "Beer Keg",
+    title: "Tea Oxidation",
     description:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod",
+      "Precise oxidation control transforming green leaves into various tea types with distinct characteristics and complexity",
     animation: "fadeInRight",
     delay: "0.3s",
     dataName: "03",
@@ -820,9 +820,9 @@ export const services7 = [
   {
     id: 104,
     icon: "flaticon-brewing",
-    title: "Brewing",
+    title: "Tea Drying",
     description:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod",
+      "Carefully controlled drying process that halts oxidation and preserves tea quality while developing final flavor profiles",
     animation: "fadeInLeft",
     delay: "0.3s",
     dataName: "04",
@@ -830,9 +830,9 @@ export const services7 = [
   {
     id: 105,
     icon: "flaticon-grinder",
-    title: "Beer Grinder",
+    title: "Tea Grading",
     description:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod",
+      "Expert sorting and grading of tea leaves by size, appearance, and quality to ensure consistency in every batch",
     animation: "fadeInUp",
     delay: "0.3s",
     dataName: "05",
@@ -840,9 +840,9 @@ export const services7 = [
   {
     id: 106,
     icon: "flaticon-barrels-1",
-    title: "Barrels Beer",
+    title: "Tea Storage",
     description:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod",
+      "Professional storage solutions maintaining optimal humidity and temperature to preserve freshness and authentic character",
     animation: "fadeInRight",
     delay: "0.3s",
     dataName: "06",

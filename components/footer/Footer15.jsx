@@ -151,11 +151,13 @@ export default function Footer15() {
       <div className="footer-bottom footer-line">
         <div className="container">
           <div className="footer-bottom-in">
-            <div className="footer-bottom-logo">
-              <Link href={`/`}>
-                <img alt="" src="/images/logo-light.png" />
-              </Link>
-            </div>
+            <Link href={`/`}>
+              <img
+                alt=""
+                src="/images/logo.png"
+                style={{ marginTop: "15px" }}
+              />
+            </Link>
             <div className="footer-bottom-social">
               <ul className="dlab-social-icon dez-border">
                 {socialLinks.slice(0, 4).map((link, index) => (

@@ -12,7 +12,7 @@ export default function page() {
     <>
       <div className="page-wraper  ">
         <Header1 />
-        <div className="page-content bg-white">
+        <div className="page-content" style={{ background: "#fbf8e8" }}>
           {" "}
           <div
             className="dlab-bnr-inr overlay-black-middle bg-pt"

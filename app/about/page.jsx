@@ -22,7 +22,6 @@ export default function page() {
           <About />
           <Facts />
           <Team />
-          <Pricing />
           <Testimonials />
         </div>
         <Footer15 />

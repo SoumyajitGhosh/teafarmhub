@@ -16,12 +16,7 @@ export default function Header() {
             {/* website logo */}
             <div className="logo-header mostion logo-white">
               <Link href={`/`}>
-                <img
-                  alt=""
-                  src="/images/logo-white-9.png"
-                  width="258"
-                  height="75"
-                />
+                <img alt="" src="/images/logo.png" width="100" height="50" />
               </Link>
             </div>
             {/* nav toggle button */}
@@ -60,12 +55,7 @@ export default function Header() {
             >
               <div className="logo-header d-md-block d-lg-none">
                 <Link href={`/`}>
-                  <img
-                    alt=""
-                    src="/images/logo-9.png"
-                    width="258"
-                    height="75"
-                  />
+                  <img alt="" src="/images/logo.png" width="100" height="75" />
                 </Link>
               </div>
               <ul className="nav navbar-nav">

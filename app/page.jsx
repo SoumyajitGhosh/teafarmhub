@@ -14,10 +14,10 @@ export const metadata = {
 
 export default function Home() {
   return (
-     <div className="page-wraper roboto-condensed  ">
+    <div className="page-wraper roboto-condensed">
       <Header />
       <Hero />
-      <div className="page-content bg-white">
+      <div className="page-content">
         <div className="content-block">
           <About />
           <Servies />

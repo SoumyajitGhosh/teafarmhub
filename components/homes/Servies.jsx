@@ -8,9 +8,9 @@ export default function Servies() {
         <div className="section-head text-center text-white">
           <h2 className="title">Our Services</h2>
           <p>
-            There are many variations of passages of Lorem Ipsum typesetting
-            industry has been the industry's standard dummy text ever since the
-            been when an unknown printer.
+            From cultivation to your cup, we offer comprehensive tea processing
+            services including withering, rolling, oxidation, and expert quality
+            control to deliver the finest organic tea varieties.
           </p>
         </div>
         <div className="section-content row text-black">

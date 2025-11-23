@@ -5,7 +5,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
 export default function Testimonials() {
   return (
-    <div className="section-full content-inner-2 bg-gray">
+    <div
+      className="section-full content-inner-2"
+      style={{ background: "#fbf8e8" }}
+    >
       <div className="container">
         <div className="section-head style2 text-center">
           <h2 className="title">Our Client</h2>

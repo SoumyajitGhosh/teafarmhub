@@ -8,14 +8,14 @@ export default function Banner2() {
     >
       <div className="container">
         <div className="dlab-bnr-inr-entry">
-          <h1 className="text-white">Services 2</h1>
+          <h1 className="text-white">Services</h1>
           {/* Breadcrumb row */}
           <div className="breadcrumb-row">
             <ul className="list-inline">
               <li>
                 <Link href={`/`}>Home</Link>
               </li>
-              <li>Services 2</li>
+              <li>Services</li>
             </ul>
           </div>
           {/* Breadcrumb row END */}

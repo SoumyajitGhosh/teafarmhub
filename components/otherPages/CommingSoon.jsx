@@ -251,7 +251,7 @@ export default function CommingSoon() {
                 <img
                   alt=""
                   src="/images/logo-white.png"
-                  width="258"
+                  width="100"
                   height="75"
                 />
               </Link>

@@ -1,5 +1,6 @@
 /*===================== Primary bg color - Tea Farm Hub Theme =====================*/
 [data-theme-color="skin-3-theme"] {
+  --color-base: #fbf8e8;        /* Shadow - Main brand color (was #fdb400) */
   --color-primary: #8b674f;        /* Shadow - Main brand color (was #fdb400) */
   --color-secondry: #3a2e17;       /* Black Marlin - Dark accent (was #825c00) */
   --color-hover: #a37d63;          /* Lighter Shadow for hover (was #e9ad1a) */

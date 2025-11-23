@@ -7,8 +7,8 @@ export default function Cta() {
         <div className="row">
           <div className="col-lg-12 service-main-title text-white text-center">
             <h3 className="title max-w700 m-auto">
-              To others what may appear the impossible, becomes possible with
-              Uncode.
+              From our highland gardens to your cup, experience the authentic
+              taste of premium organic tea.
             </h3>
           </div>
         </div>
