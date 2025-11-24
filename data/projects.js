@@ -337,6 +337,38 @@ export const portfolioItems2 = [
     image: "/images/gallery/beer/pic4.jpg",
     title: "Brewing Beer",
   },
+  {
+    id: 49,
+    categories: " malt brewing ",
+    duration: "2s",
+    delay: "1.2s",
+    image: "/images/gallery/beer/pic1.jpg",
+    title: "Malt Processing",
+  },
+  {
+    id: 50,
+    categories: " beer-keg ",
+    duration: "2s",
+    delay: "1.5s",
+    image: "/images/gallery/beer/pic2.jpg",
+    title: "Premium Beer Keg",
+  },
+  {
+    id: 51,
+    categories: " brewing malt ",
+    duration: "2s",
+    delay: "1.8s",
+    image: "/images/gallery/beer/pic3.jpg",
+    title: "Craft Brewing",
+  },
+  {
+    id: 52,
+    categories: " beer-keg brewing malt ",
+    duration: "2s",
+    delay: "2.1s",
+    image: "/images/gallery/beer/pic4.jpg",
+    title: "Beer Production",
+  },
 ];
 
 export const portfolioItems3 = [

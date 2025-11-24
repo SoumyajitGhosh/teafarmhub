@@ -6,14 +6,13 @@ import ReCAPTCHA from "react-google-recaptcha";
 export default function Contact3() {
   return (
     <>
-      <div
+      {/* <div
         className="dlab-bnr-inr overlay-black-middle bg-pt"
         style={{ backgroundImage: "url(/images/banner/bnr1.jpg)" }}
       >
         <div className="container">
           <div className="dlab-bnr-inr-entry">
             <h1 className="text-white">Contact Us</h1>
-            {/* Breadcrumb row */}
             <div className="breadcrumb-row">
               <ul className="list-inline">
                 <li>
@@ -22,18 +21,17 @@ export default function Contact3() {
                 <li>Contact Us</li>
               </ul>
             </div>
-            {/* Breadcrumb row END */}
           </div>
         </div>
-      </div>
+      </div> */}
       {/* inner page banner END */}
       {/* contact area */}
-      <div className="section-full content-inner bg-white contact-style-1">
+      <div className="section-full content-inner bg-[#fbf8e8] contact-style-1">
         <div className="container">
           <div className="row">
             {/* right part start */}
-            <div className="col-lg-4 col-md-6 d-flex m-b30">
-              <div className="p-a30 border contact-area border-1 align-self-stretch radius-sm">
+            <div className="col-lg-4 col-md-6 d-flex m-b30 bg-white">
+              <div className="p-a30 contact-area align-self-stretch radius-sm">
                 <h3 className="m-b5">Quick Contact</h3>
                 <p>
                   If you have any questions simply use the following contact

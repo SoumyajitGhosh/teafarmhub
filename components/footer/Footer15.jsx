@@ -92,7 +92,7 @@ export default function Footer15() {
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard.
                 </p>
-                <Link href={`/about-2`} className="readmore">
+                <Link href={`/about`} className="readmore">
                   Read More
                 </Link>
               </div>

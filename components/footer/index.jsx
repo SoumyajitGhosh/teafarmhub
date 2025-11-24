@@ -133,7 +133,7 @@ export default function Footer12() {
               <div className="widget-link">
                 <ul>
                   <li>
-                    <Link href={`/about-2`}> About</Link>
+                    <Link href={`/about`}> About</Link>
                   </li>
                   <li>
                     <Link href={`/help-desk`}> Help Desk</Link>

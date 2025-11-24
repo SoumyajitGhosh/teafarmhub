@@ -3,40 +3,62 @@ import { testimonials6 } from "@/data/testimonials";
 import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
+
 export default function Testimonials() {
   return (
     <div
       className="section-full content-inner-2"
-      style={{ background: "#fbf8e8" }}
+      style={{ background: "#fbf8e8", padding: "30px 0" }}
     >
       <div className="container">
-        <div className="section-head style2 text-center">
-          <h2 className="title">Our Client</h2>
-          <p>
-            There are many variations of passages of Lorem Ipsum typesetting
-            industry has been the industry's standard dummy text ever since the
-            been when an unknown printer.
+        <div
+          className="section-head style2 text-center"
+          style={{ marginBottom: "20px" }}
+        >
+          <h2
+            className="title"
+            style={{ fontSize: "28px", marginBottom: "8px" }}
+          >
+            Testimonials from Tea Lovers
+          </h2>
+          <p
+            style={{
+              fontSize: "13px",
+              lineHeight: "1.6",
+              maxWidth: "650px",
+              margin: "0 auto",
+              color: "#666",
+            }}
+          >
+            From tea enthusiasts to café owners, discover what our customers say
+            about TeaFarmHub's premium organic tea. Hand-picked from our
+            highland plantations, every leaf tells a story of quality,
+            sustainability, and authentic flavor.
           </p>
         </div>
         {/* Image Carousel start */}
         <Swiper
           slidesPerView={3}
-          spaceBetween={30}
+          spaceBetween={15}
           slidesPerGroup={2}
           slidesPerGroupAuto
           loop
           breakpoints={{
             0: {
               slidesPerView: 1,
+              spaceBetween: 10,
             },
             480: {
               slidesPerView: 2,
+              spaceBetween: 12,
             },
             991: {
               slidesPerView: 2,
+              spaceBetween: 15,
             },
             1000: {
               slidesPerView: 3,
+              spaceBetween: 15,
             },
           }}
           autoplay={{
@@ -62,31 +84,64 @@ export default function Testimonials() {
               className="item p-a5 wow fadeInUp"
               data-wow-duration={testimonial.duration}
               data-wow-delay={testimonial.delay}
+              style={{ padding: "5px" }}
             >
-              <div className="testimonial-9">
-                <div className="testimonial-pic radius style1">
+              <div
+                className="testimonial-9"
+                style={{ padding: "15px", maxWidth: "280px", margin: "0 auto" }}
+              >
+                <div
+                  className="testimonial-pic radius style1"
+                  style={{ marginBottom: "10px" }}
+                >
                   <Image
                     src={testimonial.image}
-                    width={100}
-                    height={100}
-                    alt=""
+                    width={60}
+                    height={60}
+                    alt={testimonial.name || "Customer testimonial"}
+                    style={{ borderRadius: "50%", objectFit: "cover" }}
                   />
                 </div>
-                <div className="testimonial-text">
-                  <p>{testimonial.text}</p>
+                <div
+                  className="testimonial-text"
+                  style={{ marginBottom: "10px" }}
+                >
+                  <p
+                    style={{
+                      fontSize: "12px",
+                      lineHeight: "1.6",
+                      marginBottom: "0",
+                      display: "-webkit-box",
+                      WebkitLineClamp: "4",
+                      WebkitBoxOrient: "vertical",
+                      overflow: "hidden",
+                    }}
+                  >
+                    {testimonial.text}
+                  </p>
                 </div>
                 <div className="testimonial-detail">
-                  <strong className="testimonial-name">
+                  <strong
+                    className="testimonial-name"
+                    style={{
+                      fontSize: "14px",
+                      display: "block",
+                      marginBottom: "3px",
+                    }}
+                  >
                     {testimonial.name}
                   </strong>
-                  <span className="testimonial-position">
+                  <span
+                    className="testimonial-position"
+                    style={{ fontSize: "11px", color: "#777" }}
+                  >
                     {testimonial.position}
                   </span>
                 </div>
               </div>
             </SwiperSlide>
           ))}
-          <div className="owl-dots spt1"></div>
+          <div className="owl-dots spt1" style={{ marginTop: "15px" }}></div>
         </Swiper>
       </div>
     </div>

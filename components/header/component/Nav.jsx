@@ -102,10 +102,7 @@ export default function Nav() {
         } ${isMenuActive("/") ? "active" : ""}`}
         onClick={() => setMenuOpen1((pre) => (pre == "home" ? "" : "home"))}
       >
-        <Link href="/">
-          Home
-          <i className="fas fa-chevron-down" />
-        </Link>
+        <Link href="/">Home</Link>
       </li>
       <li
         className={`has-mega-menu  ${isMenuActive("/about") ? "active" : ""} ${
@@ -117,7 +114,6 @@ export default function Nav() {
           onClick={() => setMenuOpen1((pre) => (pre == "pages" ? "" : "pages"))}
         >
           About Us
-          <i className="fas fa-chevron-down" />
         </Link>
       </li>
       <li
@@ -130,7 +126,6 @@ export default function Nav() {
           onClick={() => setMenuOpen1((pre) => (pre == "pages" ? "" : "pages"))}
         >
           Blogs
-          <i className="fas fa-chevron-down" />
         </Link>
       </li>
       <li
@@ -143,7 +138,6 @@ export default function Nav() {
           href={"/shop"}
         >
           Shop
-          <i className="fas fa-chevron-down" />
         </Link>
       </li>
       <li
@@ -154,10 +148,7 @@ export default function Nav() {
           setMenuOpen1((pre) => (pre == "contact" ? "" : "contact"))
         }
       >
-        <Link href={"/contact"}>
-          Contact Us
-          <i className="fas fa-chevron-down" />
-        </Link>
+        <Link href={"/contact"}>Contact Us</Link>
         {/* <ul className="sub-menu right">
           {contactLinks.map((link, index) => (
             <li key={index}>

@@ -4,6 +4,7 @@ import { portfolioItems2 } from "@/data/projects";
 import React, { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+
 const filterItems = [
   { filter: "*", label: "All" },
   { filter: ".beer-keg", label: "Green Tea" },
@@ -15,6 +16,7 @@ export default function Portfolio() {
   const [currentFilter, setCurrentFilter] = useState("*");
   const isotopContainer = useRef();
   const isotope = useRef();
+  
   const initIsotop = async () => {
     const Isotope = (await import("isotope-layout")).default;
     const imagesloaded = (await import("imagesloaded")).default;
@@ -29,19 +31,18 @@ export default function Portfolio() {
       isotope.current.layout();
     });
   };
+
   const updateCategory = (val) => {
     setCurrentFilter(val);
     isotope.current.arrange({
       filter: val,
     });
-    //   isotope.value.layout();
   };
-  useEffect(() => {
-    /////////////////////////////////////////////////////
-    // Magnate Animation
 
+  useEffect(() => {
     initIsotop();
   }, []);
+
   return (
     <div
       className="section-full content-inner"
@@ -62,18 +63,17 @@ export default function Portfolio() {
               <ul className="filters" data-bs-toggle="buttons">
                 {filterItems.map((item) => (
                   <React.Fragment key={item.filter}>
-                    {" "}
                     <li
                       onClick={() => updateCategory(item.filter)}
                       className={`btn ${
                         currentFilter == item.filter ? "active" : ""
-                      } `}
+                      }`}
                     >
                       <input type="radio" />
                       <a className="site-button btnhover20 outline outline-2 button-sm">
                         <span>{item.label}</span>
                       </a>
-                    </li>{" "}
+                    </li>
                   </React.Fragment>
                 ))}
               </ul>
@@ -91,7 +91,7 @@ export default function Portfolio() {
                 <li
                   key={i}
                   className={
-                    "card-container col-lg-6 col-md-6 col-sm-6 " +
+                    "card-container col-lg-3 col-md-4 col-sm-6 col-xs-12" +
                     " " +
                     item.categories
                   }
@@ -99,7 +99,13 @@ export default function Portfolio() {
                   data-wow-delay={item.delay}
                 >
                   <div className="dlab-media dlab-img-overlay1 dlab-img-effect portbox1 style1 m-b30 radius-sm">
-                    <Image src={item.image} width={600} height={722} alt="" />
+                    <Image
+                      src={item.image}
+                      width={400}
+                      height={480}
+                      alt={item.title || "Tea gallery image"}
+                      style={{ objectFit: "cover" }}
+                    />
                     <div className="overlay-bx">
                       <div className="portinner">
                         <h3 className="port-title">

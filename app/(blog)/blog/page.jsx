@@ -14,14 +14,13 @@ export default function page() {
         <Header1 />
         <div className="page-content" style={{ background: "#fbf8e8" }}>
           {" "}
-          <div
+          {/* <div
             className="dlab-bnr-inr overlay-black-middle bg-pt"
             style={{ backgroundImage: "url(/images/banner/bnr1.jpg)" }}
           >
             <div className="container">
               <div className="dlab-bnr-inr-entry">
                 <h1 className="text-white">Blog</h1>
-                {/* Breadcrumb row */}
                 <div className="breadcrumb-row">
                   <ul className="list-inline">
                     <li>
@@ -30,10 +29,9 @@ export default function page() {
                     <li>Blog</li>
                   </ul>
                 </div>
-                {/* Breadcrumb row END */}
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="content-area">
             <Blog4 />
           </div>

@@ -11,19 +11,34 @@ export default function Blog4() {
         {posts.map((elm, i) => (
           <div
             key={i}
-            className="post card-container col-lg-4 col-md-12 col-sm-12"
+            className="post card-container col-lg-3 col-md-4 col-sm-6 col-xs-12"
+            style={{ marginBottom: "12px" }}
           >
-            <div className="blog-post blog-grid blog-rounded blog-effect1">
+            <div
+              className="blog-post blog-grid blog-rounded blog-effect1"
+              style={{ maxWidth: "280px", margin: "0 auto" }}
+            >
               <div className="dlab-post-media dlab-img-effect">
                 <Link href={`/blog-single/${elm.title}`}>
-                  <Image alt="" src={elm.imgSrc} width="700" height="500" />
+                  <Image
+                    alt={elm.title || "Blog image"}
+                    src={elm.imgSrc}
+                    width="280"
+                    height="180"
+                    style={{
+                      width: "100%",
+                      height: "auto",
+                      maxHeight: "180px",
+                      objectFit: "cover",
+                    }}
+                  />
                 </Link>
               </div>
-              <div className="dlab-info p-a20 border-1">
-                <div className="dlab-post-meta">
-                  <ul>
+              <div className="dlab-info border-1" style={{ padding: "10px" }}>
+                <div className="dlab-post-meta" style={{ marginBottom: "6px" }}>
+                  <ul style={{ fontSize: "10px", marginBottom: "0" }}>
                     <li className="post-date">
-                      <strong>
+                      <strong style={{ fontSize: "10px" }}>
                         {elm.date.day} {elm.date.month}
                       </strong>{" "}
                       <span> {elm.date.year}</span>
@@ -33,13 +48,39 @@ export default function Blog4() {
                     </li>
                   </ul>
                 </div>
-                <div className="dlab-post-title">
-                  <h4 className="post-title">
+                <div
+                  className="dlab-post-title"
+                  style={{ marginBottom: "6px" }}
+                >
+                  <h4
+                    className="post-title"
+                    style={{
+                      fontSize: "13px",
+                      lineHeight: "1.3",
+                      marginBottom: "0",
+                      display: "-webkit-box",
+                      WebkitLineClamp: "2",
+                      WebkitBoxOrient: "vertical",
+                      overflow: "hidden",
+                    }}
+                  >
                     <Link href={`/blog-single/${elm.title}`}>{elm.title}</Link>
                   </h4>
                 </div>
-                <div className="dlab-post-text">
-                  <p>{elm.text}</p>
+                <div className="dlab-post-text" style={{ marginBottom: "8px" }}>
+                  <p
+                    style={{
+                      fontSize: "11px",
+                      lineHeight: "1.4",
+                      marginBottom: "0",
+                      display: "-webkit-box",
+                      WebkitLineClamp: "2",
+                      WebkitBoxOrient: "vertical",
+                      overflow: "hidden",
+                    }}
+                  >
+                    {elm.text}
+                  </p>
                 </div>
                 <div className="dlab-post-readmore">
                   <Link
@@ -47,9 +88,13 @@ export default function Blog4() {
                     title="READ MORE"
                     rel="bookmark"
                     className="site-button"
+                    style={{ padding: "5px 14px", fontSize: "10px" }}
                   >
                     READ MORE
-                    <i className="ti-arrow-right" />
+                    <i
+                      className="ti-arrow-right"
+                      style={{ marginLeft: "3px", fontSize: "9px" }}
+                    />
                   </Link>
                 </div>
               </div>
@@ -59,7 +104,10 @@ export default function Blog4() {
       </div>
       {/* blog grid END */}
       {/* Pagination */}
-      <div className="pagination-bx clearfix col-md-12 text-center">
+      <div
+        className="pagination-bx clearfix col-md-12 text-center"
+        style={{ marginTop: "12px" }}
+      >
         <ul className="pagination">
           <Pagination />
         </ul>

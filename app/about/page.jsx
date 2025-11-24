@@ -18,7 +18,7 @@ export default function page() {
       <div className="page-wraper">
         <Header />
         <div className="page-content bg-white">
-          <Banner />
+          {/* <Banner /> */}
           <About />
           <Facts />
           <Team />

@@ -4,21 +4,22 @@ import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Link from "next/link";
 import Image from "next/image";
+
 export default function Team() {
   return (
-    <div className="section-full content-inner bg-gray">
+    <div className="section-full content-inner bg-gray" style={{ padding: '30px 0' }}>
       <div className="container">
-        <div className="section-head style2 text-center">
-          <h2 className="title">Our Team</h2>
-          <p>
+        <div className="section-head style2 text-center" style={{ marginBottom: '25px' }}>
+          <h2 className="title" style={{ fontSize: '28px', marginBottom: '8px' }}>Our Team</h2>
+          <p style={{ fontSize: '13px', maxWidth: '650px', margin: '0 auto' }}>
             There are many variations of passages of Lorem Ipsum typesetting
             industry has been the industry's standard dummy text ever since the
             been when an unknown printer.
           </p>
         </div>
         <Swiper
-          slidesPerView={3}
-          spaceBetween={30}
+          slidesPerView={4}
+          spaceBetween={15}
           slidesPerGroup={1}
           loop
           autoplay={{
@@ -30,15 +31,19 @@ export default function Team() {
           breakpoints={{
             0: {
               slidesPerView: 1,
+              spaceBetween: 10,
             },
             480: {
               slidesPerView: 2,
+              spaceBetween: 12,
             },
-            991: {
-              slidesPerView: 2,
+            768: {
+              slidesPerView: 3,
+              spaceBetween: 15,
             },
             1000: {
-              slidesPerView: 3,
+              slidesPerView: 4,
+              spaceBetween: 15,
             },
           }}
           className="team-carousel centeredSlides owl-carousel owl-btn-3 owl-theme owl-btn-center-lr"
@@ -50,40 +55,50 @@ export default function Team() {
               data-wow-duration="2s"
               data-wow-delay={elm.delay}
             >
-              <div className="dlab-box m-b30 dlab-team7">
+              <div className="dlab-box m-b30 dlab-team7" style={{ maxWidth: '240px', margin: '0 auto 15px' }}>
                 <div className="dlab-media">
                   <Link href={`/team-1`}>
-                    <Image alt="" src={elm.image} width={350} height={350} />
+                    <Image 
+                      alt={elm.name || "Team member"} 
+                      src={elm.image} 
+                      width={240} 
+                      height={240} 
+                      style={{ width: '100%', height: 'auto', objectFit: 'cover' }} 
+                    />
                   </Link>
                 </div>
-                <div className="dlab-info">
-                  <h4 className="dlab-title">
+                <div className="dlab-info" style={{ padding: '12px 8px' }}>
+                  <h4 className="dlab-title" style={{ fontSize: '14px', marginBottom: '4px' }}>
                     <Link href={`/team-1`}>{elm.name}</Link>
                   </h4>
-                  <span className="dlab-position">{elm.position}</span>
-                  <ul className="dlab-social-icon">
+                  <span className="dlab-position" style={{ fontSize: '11px' }}>{elm.position}</span>
+                  <ul className="dlab-social-icon" style={{ marginTop: '8px' }}>
                     <li>
                       <a
                         className="site-button circle-sm gray-light fab fa-facebook-f"
                         href="#"
+                        style={{ width: '26px', height: '26px', lineHeight: '26px', fontSize: '11px' }}
                       ></a>
                     </li>{" "}
                     <li>
                       <a
                         className="site-button circle-sm gray-light fab fa-twitter"
                         href="#"
+                        style={{ width: '26px', height: '26px', lineHeight: '26px', fontSize: '11px' }}
                       ></a>
                     </li>{" "}
                     <li>
                       <a
                         className="site-button circle-sm gray-light fab fa-linkedin-in"
                         href="#"
+                        style={{ width: '26px', height: '26px', lineHeight: '26px', fontSize: '11px' }}
                       ></a>
                     </li>{" "}
                     <li>
                       <a
                         className="site-button circle-sm gray-light fab fa-pinterest-p"
                         href="#"
+                        style={{ width: '26px', height: '26px', lineHeight: '26px', fontSize: '11px' }}
                       ></a>
                     </li>
                   </ul>

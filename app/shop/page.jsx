@@ -15,14 +15,13 @@ export default function page() {
       <div className="page-wraper">
         <Header />
         <div className="page-content" style={{ background: "#fbf8e8" }}>
-          <div
+          {/* <div
             className="dlab-bnr-inr overlay-black-middle bg-pt"
             style={{ backgroundImage: "url(/images/banner/bnr4.jpg)" }}
           >
             <div className="container">
               <div className="dlab-bnr-inr-entry">
                 <h1 className="text-white">Shop Grid</h1>
-                {/* Breadcrumb row */}
                 <div className="breadcrumb-row">
                   <ul className="list-inline">
                     <li>
@@ -31,10 +30,9 @@ export default function page() {
                     <li>Shop Grid</li>
                   </ul>
                 </div>
-                {/* Breadcrumb row END */}
               </div>
             </div>
-          </div>
+          </div> */}
           <Shop />
 
           <ShopFeatures />
