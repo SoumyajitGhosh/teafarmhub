@@ -7,16 +7,16 @@ import Link from "next/link";
 
 const filterItems = [
   { filter: "*", label: "All" },
-  { filter: ".beer-keg", label: "Green Tea" },
-  { filter: ".brewing", label: "Black Tea" },
-  { filter: ".malt", label: "Oolong Tea" },
+  { filter: ".green-tea", label: "Green Tea" },
+  { filter: ".black-tea", label: "Black Tea" },
+  { filter: ".oolong-tea", label: "Oolong Tea" },
 ];
 
 export default function Portfolio() {
   const [currentFilter, setCurrentFilter] = useState("*");
   const isotopContainer = useRef();
   const isotope = useRef();
-  
+
   const initIsotop = async () => {
     const Isotope = (await import("isotope-layout")).default;
     const imagesloaded = (await import("imagesloaded")).default;
@@ -24,7 +24,7 @@ export default function Portfolio() {
     // Initialize Isotope in the mounted hook
     isotope.current = new Isotope(isotopContainer.current, {
       itemSelector: ".card-container",
-      layoutMode: "masonry", // or 'fitRows', depending on your layout needs
+      layoutMode: "fitRows", // Changed to fitRows for uniform grid
     });
     imagesloaded(isotopContainer.current).on("progress", function () {
       // Trigger Isotope layout
@@ -46,12 +46,17 @@ export default function Portfolio() {
   return (
     <div
       className="section-full content-inner"
-      style={{ background: "#fbf8e8" }}
+      style={{ background: "var(--color-tertiary)", padding: "30px 0" }}
     >
       <div className="container">
-        <div className="section-head text-center">
-          <h2 className="title">Our Gallery</h2>
-          <p>
+        <div
+          className="section-head text-center"
+          style={{ marginBottom: "30px" }}
+        >
+          <h2 className="title" style={{ marginBottom: "15px" }}>
+            Our Gallery
+          </h2>
+          <p style={{ maxWidth: "700px", margin: "0 auto" }}>
             Explore our tea gardens, processing facilities, and the finest
             varieties we cultivate. Each image tells a story of dedication,
             tradition, and the pursuit of exceptional tea quality.
@@ -97,15 +102,31 @@ export default function Portfolio() {
                   }
                   data-wow-duration={item.duration}
                   data-wow-delay={item.delay}
+                  style={{ marginBottom: "20px" }}
                 >
                   <div className="dlab-media dlab-img-overlay1 dlab-img-effect portbox1 style1 m-b30 radius-sm">
-                    <Image
-                      src={item.image}
-                      width={400}
-                      height={480}
-                      alt={item.title || "Tea gallery image"}
-                      style={{ objectFit: "cover" }}
-                    />
+                    {/* Fixed aspect ratio container */}
+                    <div
+                      style={{
+                        position: "relative",
+                        width: "100%",
+                        paddingBottom: "120%", // 5:6 aspect ratio (480/400)
+                        overflow: "hidden",
+                      }}
+                    >
+                      <Image
+                        src={item.image}
+                        fill
+                        alt={item.title || "Tea gallery image"}
+                        style={{
+                          objectFit: "cover",
+                          position: "absolute",
+                          top: 0,
+                          left: 0,
+                        }}
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+                      />
+                    </div>
                     <div className="overlay-bx">
                       <div className="portinner">
                         <h3 className="port-title">

@@ -93,49 +93,49 @@ export const teamMembers3 = [
 
 export const teamData = [
   {
-    image: "/images/our-team/team-bx/pic1.jpg",
+    image: "/images/generated/image9.png",
     name: "Oliver",
     position: "Farm Experts",
     delay: "0.2s",
   },
   {
-    image: "/images/our-team/team-bx/pic2.jpg",
+    image: "/images/generated/image6.png",
     name: "Alexander",
     position: "Farmer",
     delay: "0.4s",
   },
   {
-    image: "/images/our-team/team-bx/pic3.jpg",
+    image: "/images/generated/image9.png",
     name: "Charles",
     position: "Milkmaster",
     delay: "0.6s",
   },
   {
-    image: "/images/our-team/team-bx/pic4.jpg",
+    image: "/images/generated/image6.png",
     name: "Thomas",
     position: "Warden of Sty",
     delay: "0.8s",
   },
   {
-    image: "/images/our-team/team-bx/pic1.jpg",
+    image: "/images/generated/image9.png",
     name: "Oliver",
     position: "Farm Experts",
     delay: "0.2s",
   },
   {
-    image: "/images/our-team/team-bx/pic2.jpg",
+    image: "/images/generated/image6.png",
     name: "Alexander",
     position: "Farmer",
     delay: "0.4s",
   },
   {
-    image: "/images/our-team/team-bx/pic3.jpg",
+    image: "/images/generated/image9.png",
     name: "Charles",
     position: "Milkmaster",
     delay: "0.6s",
   },
   {
-    image: "/images/our-team/team-bx/pic4.jpg",
+    image: "/images/generated/image6.png",
     name: "Thomas",
     position: "Warden of Sty",
     delay: "0.8s",

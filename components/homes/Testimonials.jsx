@@ -39,7 +39,7 @@ export default function Testimonials() {
         {/* Image Carousel start */}
         <Swiper
           slidesPerView={3}
-          spaceBetween={15}
+          spaceBetween={5}
           slidesPerGroup={2}
           slidesPerGroupAuto
           loop
@@ -50,15 +50,15 @@ export default function Testimonials() {
             },
             480: {
               slidesPerView: 2,
-              spaceBetween: 12,
+              spaceBetween: 5,
             },
             991: {
               slidesPerView: 2,
-              spaceBetween: 15,
+              spaceBetween: 7,
             },
             1000: {
               slidesPerView: 3,
-              spaceBetween: 15,
+              spaceBetween: 7,
             },
           }}
           autoplay={{
@@ -89,7 +89,7 @@ export default function Testimonials() {
               <div
                 className="testimonial-9"
                 style={{
-                  padding: "15px",
+                  // padding: "15px",
                   maxWidth: "280px",
                   margin: "0 auto",
                   background: "var(--color-tertiary)",
@@ -97,14 +97,24 @@ export default function Testimonials() {
               >
                 <div
                   className="testimonial-pic radius style1"
-                  style={{ marginBottom: "10px" }}
+                  style={{
+                    width: "150px",
+                    height: "150px",
+                    borderRadius: "50%",
+                    overflow: "hidden",
+                    margin: "0 auto 15px",
+                  }}
                 >
                   <Image
                     src={testimonial.image}
-                    width={60}
-                    height={60}
+                    width={150}
+                    height={150}
                     alt={testimonial.name || "Customer testimonial"}
-                    style={{ borderRadius: "50%", objectFit: "cover" }}
+                    style={{
+                      objectFit: "cover",
+                      width: "100%",
+                      height: "100%",
+                    }}
                   />
                 </div>
                 <div

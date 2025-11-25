@@ -9,7 +9,7 @@ export default function Team() {
   return (
     <div
       className="section-full content-inner bg-gray"
-      style={{ padding: "30px 0", background: "var(--color-tertiary)" }}
+      style={{ padding: "20px 0", background: "var(--color-tertiary)" }}
     >
       <div className="container">
         <div
@@ -30,7 +30,7 @@ export default function Team() {
         </div>
         <Swiper
           slidesPerView={4}
-          spaceBetween={15}
+          spaceBetween={5}
           slidesPerGroup={1}
           loop
           autoplay={{
@@ -46,15 +46,15 @@ export default function Team() {
             },
             480: {
               slidesPerView: 2,
-              spaceBetween: 12,
+              spaceBetween: 5,
             },
             768: {
               slidesPerView: 3,
-              spaceBetween: 15,
+              spaceBetween: 7,
             },
             1000: {
               slidesPerView: 4,
-              spaceBetween: 15,
+              spaceBetween: 7,
             },
           }}
           className="team-carousel centeredSlides owl-carousel owl-btn-3 owl-theme owl-btn-center-lr"
@@ -70,7 +70,7 @@ export default function Team() {
                 className="dlab-box m-b30 dlab-team7"
                 style={{
                   maxWidth: "240px",
-                  margin: "0 auto 15px",
+                  margin: "0 auto 10px",
                   background: "#fbf8e8",
                 }}
               >
@@ -82,33 +82,33 @@ export default function Team() {
                       width={240}
                       height={240}
                       style={{
-                        width: "100%",
-                        height: "auto",
+                        width: "180px",
+                        height: "180px",
                         objectFit: "cover",
                       }}
                     />
                   </Link>
                 </div>
-                <div className="dlab-info" style={{ padding: "12px 8px" }}>
+                <div className="dlab-info" style={{ padding: "8px" }}>
                   <h4
                     className="dlab-title"
-                    style={{ fontSize: "14px", marginBottom: "4px" }}
+                    style={{ fontSize: "13px", marginBottom: "2px" }}
                   >
                     <Link href={`/team-1`}>{elm.name}</Link>
                   </h4>
-                  <span className="dlab-position" style={{ fontSize: "11px" }}>
+                  <span className="dlab-position" style={{ fontSize: "10px" }}>
                     {elm.position}
                   </span>
-                  <ul className="dlab-social-icon" style={{ marginTop: "8px" }}>
+                  <ul className="dlab-social-icon" style={{ marginTop: "6px" }}>
                     <li>
                       <a
                         className="site-button circle-sm gray-light fab fa-facebook-f"
                         href="#"
                         style={{
-                          width: "26px",
-                          height: "26px",
-                          lineHeight: "26px",
-                          fontSize: "11px",
+                          width: "24px",
+                          height: "24px",
+                          lineHeight: "24px",
+                          fontSize: "10px",
                         }}
                       ></a>
                     </li>{" "}
@@ -117,10 +117,10 @@ export default function Team() {
                         className="site-button circle-sm gray-light fab fa-twitter"
                         href="#"
                         style={{
-                          width: "26px",
-                          height: "26px",
-                          lineHeight: "26px",
-                          fontSize: "11px",
+                          width: "24px",
+                          height: "24px",
+                          lineHeight: "24px",
+                          fontSize: "10px",
                         }}
                       ></a>
                     </li>{" "}
@@ -129,10 +129,10 @@ export default function Team() {
                         className="site-button circle-sm gray-light fab fa-linkedin-in"
                         href="#"
                         style={{
-                          width: "26px",
-                          height: "26px",
-                          lineHeight: "26px",
-                          fontSize: "11px",
+                          width: "24px",
+                          height: "24px",
+                          lineHeight: "24px",
+                          fontSize: "10px",
                         }}
                       ></a>
                     </li>{" "}
@@ -141,10 +141,10 @@ export default function Team() {
                         className="site-button circle-sm gray-light fab fa-pinterest-p"
                         href="#"
                         style={{
-                          width: "26px",
-                          height: "26px",
-                          lineHeight: "26px",
-                          fontSize: "11px",
+                          width: "24px",
+                          height: "24px",
+                          lineHeight: "24px",
+                          fontSize: "10px",
                         }}
                       ></a>
                     </li>

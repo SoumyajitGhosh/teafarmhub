@@ -156,7 +156,7 @@ export const testimonials5 = [
 export const testimonials6 = [
   {
     id: 1,
-    image: "/images/testimonials/pic4.jpg",
+    image: "/images/generated/image7.png",
     duration: "2s",
     delay: "0.3s",
     text: "TeaFarmHub's organic tea is simply the best. The fresh, hand-picked leaves create a perfect cup every time. Highly recommended!",
@@ -165,7 +165,7 @@ export const testimonials6 = [
   },
   {
     id: 2,
-    image: "/images/testimonials/pic6.jpg",
+    image: "/images/generated/image8.png",
     duration: "2s",
     delay: "0.6s",
     text: "The quality and sustainability practices at TeaFarmHub are impressive. Their Darjeeling blend is my absolute favorite!",
@@ -174,7 +174,7 @@ export const testimonials6 = [
   },
   {
     id: 3,
-    image: "/images/testimonials/pic5.jpg",
+    image: "/images/generated/image7.png",
     duration: "2s",
     delay: "0.9s",
     text: "I've been ordering from TeaFarmHub for years. The consistency in quality and the authentic flavors keep me coming back.",
@@ -182,8 +182,8 @@ export const testimonials6 = [
     position: "Tea Lover",
   },
   {
-    id: 1,
-    image: "/images/testimonials/pic4.jpg",
+    id: 4,
+    image: "/images/generated/image8.png",
     duration: "2s",
     delay: "0.3s",
     text: "The green tea from their highland plantation is exceptional. Fresh, aromatic, and perfectly cultivated with care.",
@@ -191,8 +191,8 @@ export const testimonials6 = [
     position: "Health Coach",
   },
   {
-    id: 2,
-    image: "/images/testimonials/pic6.jpg",
+    id: 5,
+    image: "/images/generated/image7.png",
     duration: "2s",
     delay: "0.6s",
     text: "As a tea shop owner, I trust TeaFarmHub for premium quality. Their teas are always fresh and customers love them!",
@@ -200,8 +200,8 @@ export const testimonials6 = [
     position: "Shop Owner",
   },
   {
-    id: 3,
-    image: "/images/testimonials/pic5.jpg",
+    id: 6,
+    image: "/images/generated/image8.png",
     duration: "2s",
     delay: "0.9s",
     text: "TeaFarmHub delivers excellence in every leaf. Their commitment to organic farming shines through in the taste.",

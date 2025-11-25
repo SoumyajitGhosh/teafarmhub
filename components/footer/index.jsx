@@ -8,19 +8,18 @@ export default function Footer12() {
     <footer className="site-footer">
       <div
         className="footer-top overlay-black-light"
-        style={{ backgroundImage: "url(/images/background/bg16.jpg)" }}
+        style={{ backgroundImage: "url(/images/generated/image3.png)" }}
       >
         <div className="container">
           <div className="row">
             <div className="col-md-12 col-xl-5 col-lg-4 col-sm-8 footer-col-4">
               <div className="widget">
                 <h5 className="m-b30 text-white">
-                  Subscribe To Our Newsletter
+                  A World of Tea, Delivered to You
                 </h5>
                 <p className="text-capitalize m-b20">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry has been the industry's standard dummy
-                  text ever since the..
+                  Join our newsletter to receive exclusive offers, stories from
+                  the estate, and insights into the art of tea.
                 </p>
                 <div className="subscribe-form form-white m-b20">
                   <form
@@ -91,7 +90,7 @@ export default function Footer12() {
             </div>
             <div className="col-md-6 col-xl-3 col-lg-3 col-sm-6 footer-col-4">
               <div className="widget widget_getintuch">
-                <h5 className="m-b30 text-white">Contact us</h5>
+                <h5 className="m-b30 text-white">Visit Us</h5>
                 <ul>
                   <li>
                     <i className="ti-location-pin" />
@@ -101,13 +100,13 @@ export default function Footer12() {
                   <li>
                     <i className="ti-mobile" />
                     <strong>phone</strong>
-                    <a href="tel:+4733378901">0800-123456 </a> (24/7 Support
-                    Line)
+                    <a href="tel:+911234567890">+91 123 456 7890 </a> (Estate
+                    Enquiries)
                   </li>
                   <li>
                     <i className="ti-email" />
                     <strong>email</strong>
-                    <a href="mailto:someone@example.com">info@example.com</a>
+                    <a href="mailto:info@teafarmhub.com">info@teafarmhub.com</a>
                   </li>
                 </ul>
               </div>

@@ -21,8 +21,8 @@ export default function Home() {
       <div className="page-content">
         <div className="content-block">
           <About />
-          <Servies />
           <Portfolio />
+          <Servies />
           <Team />
           {/* <Blogs /> */}
           <Testimonials />

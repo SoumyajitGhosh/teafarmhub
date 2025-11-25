@@ -87,7 +87,7 @@ export default function About() {
             <Image
               className="radius-sm"
               alt="Tea plantation estate"
-              src="/images/about/pic13.jpg"
+              src="/images/generated/image23.jpg"
               width="300"
               height="340"
               style={{

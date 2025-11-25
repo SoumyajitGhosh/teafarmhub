@@ -9907,7 +9907,7 @@ ul[class*="list-"] {
 /* testimonial-9 */
 .testimonial-9 {
   background-color: #fff;
-  padding: 50px 25px;
+  /* padding: 50px 25px; */
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
