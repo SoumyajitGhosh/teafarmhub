@@ -16,17 +16,16 @@ export default function page({ params }) {
     allBlogs.filter((elm) => elm.title == slug)[0] || allBlogs[0];
   return (
     <>
-      <div className="page-wraper  ">
+      <div className="page-wraper">
         <Header1 />
-        <div className="page-content bg-white">
-          <div
+        <div className="page-content" style={{ background: "#fbf8e8" }}>
+          {/* <div
             className="dlab-bnr-inr overlay-black-middle bg-pt"
             style={{ backgroundImage: "url(/images/banner/bnr1.jpg)" }}
-          >
-            <div className="container">
+          > */}
+          {/* <div className="container">
               <div className="dlab-bnr-inr-entry">
                 <h1 className="text-white">Blog Single</h1>
-                {/* Breadcrumb row */}
                 <div className="breadcrumb-row">
                   <ul className="list-inline">
                     <li>
@@ -35,10 +34,9 @@ export default function page({ params }) {
                     <li>Blog Single</li>
                   </ul>
                 </div>
-                {/* Breadcrumb row END */}
               </div>
-            </div>
-          </div>
+            </div> */}
+          {/* </div> */}
           <div className="content-area">
             <div className="container max-w900">
               <BlogSingle blogItem={blogItem} />

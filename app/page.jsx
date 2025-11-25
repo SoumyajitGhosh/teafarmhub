@@ -8,8 +8,9 @@ import Servies from "@/components/homes/Servies";
 import Team from "@/components/homes/Team";
 import Testimonials from "@/components/homes/Testimonials";
 export const metadata = {
-  title: "Home || Industry - Factory & Industrial React Nextjs Template",
-  description: "Industry - Factory & Industrial React Nextjs Template",
+  title: "TeaFarmHub - Premium Organic Tea | Cultivated in Harmony with Nature",
+  description:
+    "Fine teas crafted in harmony with nature and cosmic wisdom. From our highland plantations to your cup - experience organic tea cultivated with tradition, permaculture, and celestial energies.",
 };
 
 export default function Home() {
@@ -23,7 +24,7 @@ export default function Home() {
           <Servies />
           <Portfolio />
           <Team />
-          <Blogs />
+          {/* <Blogs /> */}
           <Testimonials />
         </div>
       </div>

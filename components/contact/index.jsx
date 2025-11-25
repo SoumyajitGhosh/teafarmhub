@@ -30,7 +30,10 @@ export default function Contact3() {
         <div className="container">
           <div className="row">
             {/* right part start */}
-            <div className="col-lg-4 col-md-6 d-flex m-b30 bg-white">
+            <div
+              className="col-lg-4 col-md-6 d-flex m-b30"
+              style={{ background: "var(--color-tertiary)" }}
+            >
               <div className="p-a30 contact-area align-self-stretch radius-sm">
                 <h3 className="m-b5">Quick Contact</h3>
                 <p>
@@ -106,7 +109,10 @@ export default function Contact3() {
             {/* right part END */}
             {/* Left part start */}
             <div className="col-lg-4 col-md-6 mb-4 m-b30 mb-md-0">
-              <div className="p-a30 bg-gray clearfix radius-sm">
+              <div
+                className="p-a30 bg-gray clearfix radius-sm"
+                style={{ background: "var(--color-tertiary)" }}
+              >
                 <h3 className="m-b10">Send Message Us</h3>
                 <div className="dzFormMsg" />
                 <form onSubmit={(e) => e.preventDefault()} className="dzForm">

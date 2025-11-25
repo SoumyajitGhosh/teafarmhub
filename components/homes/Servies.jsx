@@ -16,12 +16,12 @@ export default function Servies() {
             className="title"
             style={{ fontSize: "28px", marginBottom: "12px" }}
           >
-            Our Services
+            A Tea Voyage
           </h2>
           <p style={{ fontSize: "13px", maxWidth: "700px", margin: "0 auto" }}>
-            From cultivation to your cup, we offer comprehensive tea processing
-            services including withering, rolling, oxidation, and expert quality
-            control to deliver the finest organic tea varieties.
+            Transport to a world beyond with our iconic tea collections - 
+            each variety cultivated in harmony with nature's rhythms and 
+            cosmic energies of the moon and stars.
           </p>
         </div>
         <div className="section-content row text-black">

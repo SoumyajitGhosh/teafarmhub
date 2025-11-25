@@ -1,3 +1,151 @@
+/*==========================
+  Font Configuration
+==========================*/
+/* 
+  Tea Plantation Theme Font System:
+  - Montserrat: Clean, modern geometric sans-serif for headings
+  - Crimson Pro: Elegant serif for body text (organic sophistication)
+*/
+
+// Primary Font Variables
+body,
+p,
+span,
+div,
+a,
+li,
+input,
+textarea,
+select,
+button {
+  font-family: "Crimson Pro", serif !important;
+}
+
+// Headings use Montserrat
+h1, h2, h3, h4, h5, h6,
+.title,
+.section-head h2,
+.site-button,
+.nav,
+.menu,
+.header-nav,
+.footer-title {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+// Override specific Poppins instances
+.c-name,
+.c-text1,
+.c-text2,
+.c-time-value,
+.c-time-lavel {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+/*==========================
+  Makaibari-Inspired Theme Enhancements
+==========================*/
+
+// Premium feel with refined spacing
+.section-head {
+  h2.title {
+    letter-spacing: 0.5px;
+    font-weight: 600;
+  }
+  p {
+    font-weight: 400;
+    line-height: 1.8;
+    opacity: 0.9;
+  }
+}
+
+// Enhanced service cards with natural aesthetic
+.service-box.style3 {
+  .icon-bx-wraper {
+    background: var(--color-cream, #fdfbf7);
+    border-radius: 8px;
+    transition: all 0.4s ease;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 25px rgba(74, 103, 65, 0.15);
+    }
+    
+    .dlab-title {
+      font-family: "Montserrat", sans-serif !important;
+      font-weight: 600;
+      letter-spacing: 0.3px;
+    }
+  }
+}
+
+// Premium hero styling
+.hero-sec {
+  .description {
+    font-size: 15px !important;
+    line-height: 1.8;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+  }
+  
+  .site-button {
+    font-family: "Montserrat", sans-serif !important;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+}
+
+// Natural, organic about section
+.our-story {
+  h2.title {
+    font-weight: 600;
+    letter-spacing: -0.5px;
+  }
+  
+  h4.title {
+    font-weight: 500;
+    line-height: 1.7;
+    color: #555;
+  }
+  
+  p {
+    font-weight: 400;
+    line-height: 1.8;
+  }
+}
+
+// Refined testimonials
+.testimonial-9,
+.testimonial-8 {
+  background: var(--color-cream, #fdfbf7);
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.06);
+  
+  .testimonial-text {
+    font-style: italic;
+    line-height: 1.7;
+  }
+  
+  .testimonial-name {
+    font-family: "Montserrat", sans-serif !important;
+    font-weight: 600;
+  }
+  
+  .testimonial-position {
+    font-weight: 400;
+    font-size: 13px;
+    opacity: 0.8;
+  }
+}
+
+/*==========================
+	Custom css
+==========================*/
+
 .rc-slider {
   margin-bottom: 20px;
   margin-left: 10px;

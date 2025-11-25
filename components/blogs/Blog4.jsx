@@ -16,25 +16,32 @@ export default function Blog4() {
           >
             <div
               className="blog-post blog-grid blog-rounded blog-effect1"
-              style={{ maxWidth: "280px", margin: "0 auto" }}
+              style={{
+                maxWidth: "260px",
+                margin: "0 auto",
+                border: "4px solid var(--color-tertiary)",
+                overflow: "hidden",
+              }}
             >
               <div className="dlab-post-media dlab-img-effect">
                 <Link href={`/blog-single/${elm.title}`}>
                   <Image
                     alt={elm.title || "Blog image"}
                     src={elm.imgSrc}
-                    width="280"
-                    height="180"
+                    width={260}
+                    height={170}
                     style={{
                       width: "100%",
                       height: "auto",
-                      maxHeight: "180px",
-                      objectFit: "cover",
+                      display: "block",
                     }}
                   />
                 </Link>
               </div>
-              <div className="dlab-info border-1" style={{ padding: "10px" }}>
+              <div
+                className="dlab-info"
+                style={{ padding: "10px", background: "var(--color-tertiary)" }}
+              >
                 <div className="dlab-post-meta" style={{ marginBottom: "6px" }}>
                   <ul style={{ fontSize: "10px", marginBottom: "0" }}>
                     <li className="post-date">
@@ -77,6 +84,7 @@ export default function Blog4() {
                       WebkitLineClamp: "2",
                       WebkitBoxOrient: "vertical",
                       overflow: "hidden",
+                      color: "white",
                     }}
                   >
                     {elm.text}

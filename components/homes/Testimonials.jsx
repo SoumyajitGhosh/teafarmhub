@@ -88,7 +88,12 @@ export default function Testimonials() {
             >
               <div
                 className="testimonial-9"
-                style={{ padding: "15px", maxWidth: "280px", margin: "0 auto" }}
+                style={{
+                  padding: "15px",
+                  maxWidth: "280px",
+                  margin: "0 auto",
+                  background: "var(--color-tertiary)",
+                }}
               >
                 <div
                   className="testimonial-pic radius style1"

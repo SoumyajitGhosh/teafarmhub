@@ -24,7 +24,7 @@ export default function About() {
                   fontWeight: "500",
                 }}
               >
-                OUR STORY
+                CULTIVATED IN HARMONY
               </span>
               <h2
                 className="title"
@@ -35,9 +35,9 @@ export default function About() {
                   marginBottom: "12px",
                 }}
               >
-                Cultivating <br />
-                premium tea <br />
-                <span className="text-primary">since 1955</span>
+                Created with <br />
+                nature & cosmic <br />
+                <span className="text-primary">wisdom</span>
               </h2>
               <h4
                 className="title"
@@ -48,8 +48,9 @@ export default function About() {
                   fontWeight: "500",
                 }}
               >
-                From our lush hillside plantations to your cup, we bring you the
-                finest organic tea with generations of expertise.
+                A spiritual union between land, plant life, and people - where
+                tea cultivation follows the rhythm of nature and celestial
+                energies.
               </h4>
               <p
                 style={{
@@ -59,20 +60,21 @@ export default function About() {
                   color: "#666",
                 }}
               >
-                Our tea estate spans across verdant hills where the perfect
-                climate and soil create exceptional tea leaves. Since 1955, our
-                family has been dedicated to sustainable farming practices and
-                traditional harvesting methods. Each leaf is hand-picked at peak
-                freshness, ensuring the highest quality in every blend we
-                produce. Our commitment to excellence has made us one of India's
-                most trusted tea producers.
+                Our tea estate spans across six ridges, surrounded by forests
+                and wildlife, where tea grows alongside wild flowers, fruits,
+                and woods - untamed and unmanaged, as nature intended. We
+                practice permaculture farming, working harmoniously with the
+                moon and stars to determine the perfect time to pluck our tea
+                leaves. This intense connection with the land has given birth to
+                unique cultivation methods that honor both tradition and the
+                natural world.
               </p>
               <Link
                 href={`/about`}
                 className="site-button btnhover20"
                 style={{ padding: "8px 20px", fontSize: "12px" }}
               >
-                About Us
+                Our Heritage
               </Link>
             </div>
           </div>

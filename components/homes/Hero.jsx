@@ -25,16 +25,19 @@ export default function Hero() {
         <span className="seperator" />
         <h1 className="title text-center style4">TeaFarmHub</h1>
         <div className="description ">
-          Premium tea leaves from our sustainable highland plantation,
-          cultivated with tradition and care.
+          Fine teas crafted in harmony with nature, nurtured with tradition and
+          cosmic wisdom.
+          <br />
+          From our highland plantations to your cup - experience tea as nature
+          intended.
         </div>
         <Link className="site-button hover-bg-white-btn" href="/contact">
           <i className="la la-phone icon" />
-          contact us
+          Visit Our Estate
         </Link>
-        <Link className="site-button hover-bg-white-btn" href="/services">
+        <Link className="site-button hover-bg-white-btn" href="/shop">
           <i className="la la-leaf icon" />
-          our teas
+          Discover Premium Teas
         </Link>
       </div>
       <ul className="social-icons">

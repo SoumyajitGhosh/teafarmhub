@@ -3,6 +3,7 @@
   --color-base: #fbf8e8;        /* Shadow - Main brand color (was #fdb400) */
   --color-primary: #8b674f;        /* Shadow - Main brand color (was #fdb400) */
   --color-secondry: #3a2e17;       /* Black Marlin - Dark accent (was #825c00) */
+  --color-tertiary: #dfc7af;      /* Tea Cream - Light accent (was #fff4e5) */
   --color-hover: #a37d63;          /* Lighter Shadow for hover (was #e9ad1a) */
   --rgba-primary-1: rgba(139, 103, 79, 0.1);   /* Shadow with 10% opacity */
   --rgba-primary-2: rgba(139, 103, 79, 0.2);   /* Shadow with 20% opacity */

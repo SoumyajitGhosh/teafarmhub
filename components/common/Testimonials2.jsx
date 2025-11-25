@@ -11,7 +11,7 @@ export default function Testimonials() {
       data-wow-duration="2s"
       data-wow-delay="0.3s"
       id="client"
-      style={{ padding: "30px 0" }}
+      style={{ padding: "30px 0", background: "#fbf8e8" }}
     >
       <div className="container">
         <div
@@ -74,7 +74,12 @@ export default function Testimonials() {
             <SwiperSlide key={i} className="item" style={{ padding: "5px" }}>
               <div
                 className="testimonial-8"
-                style={{ padding: "15px", maxWidth: "300px", margin: "0 auto" }}
+                style={{
+                  padding: "15px",
+                  maxWidth: "300px",
+                  margin: "0 auto",
+                  background: "var(--color-tertiary)",
+                }}
               >
                 <div
                   className="testimonial-text"

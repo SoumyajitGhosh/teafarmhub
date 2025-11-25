@@ -7,14 +7,25 @@ import Image from "next/image";
 
 export default function Team() {
   return (
-    <div className="section-full content-inner bg-gray" style={{ padding: '30px 0' }}>
+    <div
+      className="section-full content-inner bg-gray"
+      style={{ padding: "30px 0", background: "var(--color-tertiary)" }}
+    >
       <div className="container">
-        <div className="section-head style2 text-center" style={{ marginBottom: '25px' }}>
-          <h2 className="title" style={{ fontSize: '28px', marginBottom: '8px' }}>Our Team</h2>
-          <p style={{ fontSize: '13px', maxWidth: '650px', margin: '0 auto' }}>
-            There are many variations of passages of Lorem Ipsum typesetting
-            industry has been the industry's standard dummy text ever since the
-            been when an unknown printer.
+        <div
+          className="section-head style2 text-center"
+          style={{ marginBottom: "25px" }}
+        >
+          <h2
+            className="title"
+            style={{ fontSize: "28px", marginBottom: "8px" }}
+          >
+            Our Stewards of the Leaf
+          </h2>
+          <p style={{ fontSize: "13px", maxWidth: "650px", margin: "0 auto" }}>
+            Meet the dedicated individuals behind our exceptional teas. Their
+            expertise, passion, and deep respect for nature are infused into
+            every leaf, from the garden to your cup.
           </p>
         </div>
         <Swiper
@@ -55,50 +66,86 @@ export default function Team() {
               data-wow-duration="2s"
               data-wow-delay={elm.delay}
             >
-              <div className="dlab-box m-b30 dlab-team7" style={{ maxWidth: '240px', margin: '0 auto 15px' }}>
+              <div
+                className="dlab-box m-b30 dlab-team7"
+                style={{
+                  maxWidth: "240px",
+                  margin: "0 auto 15px",
+                  background: "#fbf8e8",
+                }}
+              >
                 <div className="dlab-media">
                   <Link href={`/team-1`}>
-                    <Image 
-                      alt={elm.name || "Team member"} 
-                      src={elm.image} 
-                      width={240} 
-                      height={240} 
-                      style={{ width: '100%', height: 'auto', objectFit: 'cover' }} 
+                    <Image
+                      alt={elm.name || "Team member"}
+                      src={elm.image}
+                      width={240}
+                      height={240}
+                      style={{
+                        width: "100%",
+                        height: "auto",
+                        objectFit: "cover",
+                      }}
                     />
                   </Link>
                 </div>
-                <div className="dlab-info" style={{ padding: '12px 8px' }}>
-                  <h4 className="dlab-title" style={{ fontSize: '14px', marginBottom: '4px' }}>
+                <div className="dlab-info" style={{ padding: "12px 8px" }}>
+                  <h4
+                    className="dlab-title"
+                    style={{ fontSize: "14px", marginBottom: "4px" }}
+                  >
                     <Link href={`/team-1`}>{elm.name}</Link>
                   </h4>
-                  <span className="dlab-position" style={{ fontSize: '11px' }}>{elm.position}</span>
-                  <ul className="dlab-social-icon" style={{ marginTop: '8px' }}>
+                  <span className="dlab-position" style={{ fontSize: "11px" }}>
+                    {elm.position}
+                  </span>
+                  <ul className="dlab-social-icon" style={{ marginTop: "8px" }}>
                     <li>
                       <a
                         className="site-button circle-sm gray-light fab fa-facebook-f"
                         href="#"
-                        style={{ width: '26px', height: '26px', lineHeight: '26px', fontSize: '11px' }}
+                        style={{
+                          width: "26px",
+                          height: "26px",
+                          lineHeight: "26px",
+                          fontSize: "11px",
+                        }}
                       ></a>
                     </li>{" "}
                     <li>
                       <a
                         className="site-button circle-sm gray-light fab fa-twitter"
                         href="#"
-                        style={{ width: '26px', height: '26px', lineHeight: '26px', fontSize: '11px' }}
+                        style={{
+                          width: "26px",
+                          height: "26px",
+                          lineHeight: "26px",
+                          fontSize: "11px",
+                        }}
                       ></a>
                     </li>{" "}
                     <li>
                       <a
                         className="site-button circle-sm gray-light fab fa-linkedin-in"
                         href="#"
-                        style={{ width: '26px', height: '26px', lineHeight: '26px', fontSize: '11px' }}
+                        style={{
+                          width: "26px",
+                          height: "26px",
+                          lineHeight: "26px",
+                          fontSize: "11px",
+                        }}
                       ></a>
                     </li>{" "}
                     <li>
                       <a
                         className="site-button circle-sm gray-light fab fa-pinterest-p"
                         href="#"
-                        style={{ width: '26px', height: '26px', lineHeight: '26px', fontSize: '11px' }}
+                        style={{
+                          width: "26px",
+                          height: "26px",
+                          lineHeight: "26px",
+                          fontSize: "11px",
+                        }}
                       ></a>
                     </li>
                   </ul>
