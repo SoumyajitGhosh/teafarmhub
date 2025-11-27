@@ -6,9 +6,15 @@ import Image from "next/image";
 import Link from "next/link";
 import { socialLinks } from "@/data/socials";
 import { toggleMobileMenu } from "@/utlis/toggleMobileMenu";
+import { usePathname } from "next/navigation";
 export default function Header() {
+  const pathname = usePathname();
+
   return (
-    <header className="site-header mo-left header header-transparent navstyle2">
+    <header
+      className="site-header mo-left header header-transparent navstyle2"
+      style={pathname !== "/" ? { backgroundColor: "#3a2e17" } : {}}
+    >
       {/* main header */}
       <div className="sticky-header main-bar-wraper navbar-expand-lg">
         <div className="main-bar clearfix">

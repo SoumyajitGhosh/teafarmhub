@@ -23,11 +23,11 @@ export default function Testimonials() {
           </h2>
           <p
             style={{
-              fontSize: "13px",
-              lineHeight: "1.6",
-              maxWidth: "650px",
+              maxWidth: "700px",
               margin: "0 auto",
-              color: "#666",
+              fontSize: "16px",
+              color: "#777",
+              lineHeight: "1.8",
             }}
           >
             From tea enthusiasts to café owners, discover what our customers say

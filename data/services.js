@@ -827,26 +827,26 @@ export const services7 = [
     delay: "0.3s",
     dataName: "04",
   },
-  {
-    id: 105,
-    icon: "flaticon-grinder",
-    title: "Tea Grading",
-    description:
-      "Expert sorting and grading of tea leaves by size, appearance, and quality to ensure consistency in every batch",
-    animation: "fadeInUp",
-    delay: "0.3s",
-    dataName: "05",
-  },
-  {
-    id: 106,
-    icon: "flaticon-barrels-1",
-    title: "Tea Storage",
-    description:
-      "Professional storage solutions maintaining optimal humidity and temperature to preserve freshness and authentic character",
-    animation: "fadeInRight",
-    delay: "0.3s",
-    dataName: "06",
-  },
+  // {
+  //   id: 105,
+  //   icon: "flaticon-grinder",
+  //   title: "Tea Grading",
+  //   description:
+  //     "Expert sorting and grading of tea leaves by size, appearance, and quality to ensure consistency in every batch",
+  //   animation: "fadeInUp",
+  //   delay: "0.3s",
+  //   dataName: "05",
+  // },
+  // {
+  //   id: 106,
+  //   icon: "flaticon-barrels-1",
+  //   title: "Tea Storage",
+  //   description:
+  //     "Professional storage solutions maintaining optimal humidity and temperature to preserve freshness and authentic character",
+  //   animation: "fadeInRight",
+  //   delay: "0.3s",
+  //   dataName: "06",
+  // },
 ];
 export const services8 = [
   {

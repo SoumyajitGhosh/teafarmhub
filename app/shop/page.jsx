@@ -1,9 +1,9 @@
-import Footer15 from "@/components/footer/Footer15";
+import Footer from "@/components/footer";
 import Link from "next/link";
 import Shop from "@/components/shop/Shop";
 import ShopFeatures from "@/components/shop/ShopFeatures";
 import React from "react";
-import Header from "@/components/header/Header1";
+import Header from "@/components/header";
 
 export const metadata = {
   title: "Shop || Industry - Factory & Industrial React Nextjs Template",
@@ -37,7 +37,7 @@ export default function page() {
 
           <ShopFeatures />
         </div>
-        <Footer15 />
+        <Footer />
       </div>
     </>
   );

@@ -1,9 +1,9 @@
 import Faq2 from "@/components/faq/Faq2";
 import Faq3 from "@/components/faq/Faq3";
-import Footer15 from "@/components/footer/Footer15";
-import Header1 from "@/components/header/Header1";
+import Footer from "@/components/footer";
 import React from "react";
 import Link from "next/link";
+import Header from "@/components/header";
 export const metadata = {
   title: "Faq 2 || Industry - Factory & Industrial React Nextjs Template",
   description: "Industry - Factory & Industrial React Nextjs Template",
@@ -12,7 +12,7 @@ export default function page() {
   return (
     <>
       <div className="page-wraper  ">
-        <Header1 />
+        <Header />
         <div className="page-content bg-white">
           <div
             className="dlab-bnr-inr overlay-black-middle bg-pt"
@@ -40,7 +40,7 @@ export default function page() {
             <Faq3 />
           </div>
         </div>
-        <Footer15 />
+        <Footer />
       </div>
     </>
   );

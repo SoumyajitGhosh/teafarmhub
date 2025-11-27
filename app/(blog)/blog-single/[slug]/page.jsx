@@ -1,10 +1,10 @@
 import BlogSingle from "@/components/blogs/BlogSingle";
 import Link from "next/link";
 import Comment from "@/components/blogs/Comment";
-import Footer15 from "@/components/footer/Footer15";
-import Header1 from "@/components/header/Header1";
+import Footer from "@/components/footer";
 import React from "react";
 import { allBlogs } from "@/data/blogs";
+import Header from "@/components/header";
 
 export const metadata = {
   title: "Blog Single || Industry - Factory & Industrial React Nextjs Template",
@@ -17,7 +17,7 @@ export default function page({ params }) {
   return (
     <>
       <div className="page-wraper">
-        <Header1 />
+        <Header />
         <div className="page-content" style={{ background: "#fbf8e8" }}>
           {/* <div
             className="dlab-bnr-inr overlay-black-middle bg-pt"
@@ -44,7 +44,7 @@ export default function page({ params }) {
             </div>
           </div>
         </div>
-        <Footer15 />
+        <Footer />
       </div>
     </>
   );

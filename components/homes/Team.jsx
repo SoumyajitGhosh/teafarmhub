@@ -22,7 +22,15 @@ export default function Team() {
           >
             Our Stewards of the Leaf
           </h2>
-          <p style={{ fontSize: "13px", maxWidth: "650px", margin: "0 auto" }}>
+          <p
+            style={{
+              maxWidth: "700px",
+              margin: "0 auto",
+              fontSize: "16px",
+              color: "#777",
+              lineHeight: "1.8",
+            }}
+          >
             Meet the dedicated individuals behind our exceptional teas. Their
             expertise, passion, and deep respect for nature are infused into
             every leaf, from the garden to your cup.

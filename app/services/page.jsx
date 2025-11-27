@@ -1,5 +1,5 @@
-import Footer15 from "@/components/footer/Footer15";
-import Header1 from "@/components/header/Header1";
+import Footer from "@/components/footer";
+import Header from "@/components/header";
 import Service from "@/components/homes/Servies";
 
 import Banner2 from "@/components/service/Banner2";
@@ -15,7 +15,7 @@ export default function page() {
   return (
     <>
       <div className="page-wraper  ">
-        <Header1 />
+        <Header />
         <div className="page-content bg-white">
           <Banner2 />
           <div className="content-block">
@@ -23,7 +23,7 @@ export default function page() {
             <Service />
           </div>
         </div>
-        <Footer15 />
+        <Footer />
       </div>
     </>
   );

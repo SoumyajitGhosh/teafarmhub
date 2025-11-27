@@ -311,7 +311,7 @@ export const portfolioItems2 = [
     duration: "2s",
     delay: "0.3s",
     image: "/images/generated/image1.png",
-    title: "Lush Tea Gardens",
+    title: "Premium Darjeeling First Flush",
   },
   {
     id: 46,
@@ -319,7 +319,7 @@ export const portfolioItems2 = [
     duration: "2s",
     delay: "0.6s",
     image: "/images/generated/image2.png",
-    title: "Hand-Picked Leaves",
+    title: "Assam Golden Tips Black Tea",
   },
   {
     id: 47,
@@ -327,7 +327,7 @@ export const portfolioItems2 = [
     duration: "2s",
     delay: "0.9s",
     image: "/images/generated/image3.png",
-    title: "Artisanal Processing",
+    title: "High Mountain Oolong",
   },
   {
     id: 48,
@@ -335,7 +335,7 @@ export const portfolioItems2 = [
     duration: "2s",
     delay: "0.9s",
     image: "/images/generated/image4.png",
-    title: "Expert Tea Tasting",
+    title: "Organic Sencha Green Tea",
   },
   {
     id: 49,
@@ -343,7 +343,7 @@ export const portfolioItems2 = [
     duration: "2s",
     delay: "1.2s",
     image: "/images/generated/image5.png",
-    title: "Final Packaging",
+    title: "Earl Grey Supreme",
   },
   {
     id: 50,
@@ -351,7 +351,7 @@ export const portfolioItems2 = [
     duration: "2s",
     delay: "1.5s",
     image: "/images/generated/image10.png",
-    title: "Our Estate",
+    title: "Tie Guan Yin Oolong",
   },
   {
     id: 51,
@@ -359,7 +359,7 @@ export const portfolioItems2 = [
     duration: "2s",
     delay: "1.8s",
     image: "/images/generated/image15.png",
-    title: "The Harvest",
+    title: "Jasmine Pearl Green Tea",
   },
   {
     id: 52,
@@ -367,7 +367,7 @@ export const portfolioItems2 = [
     duration: "2s",
     delay: "2.1s",
     image: "/images/generated/image20.jpg",
-    title: "A Journey of Flavor",
+    title: "English Breakfast Blend",
   },
 ];
 

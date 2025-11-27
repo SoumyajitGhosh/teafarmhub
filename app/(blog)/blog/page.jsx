@@ -1,8 +1,8 @@
 import Blog4 from "@/components/blogs/Blog4";
-import Footer15 from "@/components/footer/Footer15";
-import Header1 from "@/components/header/Header1";
+import Footer from "@/components/footer";
 import React from "react";
 import Link from "next/link";
+import Header from "@/components/header";
 export const metadata = {
   title: "Blog Grid 3 || Industry - Factory & Industrial React Nextjs Template",
   description: "Industry - Factory & Industrial React Nextjs Template",
@@ -11,7 +11,7 @@ export default function page() {
   return (
     <>
       <div className="page-wraper  ">
-        <Header1 />
+        <Header />
         <div className="page-content" style={{ background: "#fbf8e8" }}>
           {" "}
           {/* <div
@@ -36,7 +36,7 @@ export default function page() {
             <Blog4 />
           </div>
         </div>
-        <Footer15 />
+        <Footer />
       </div>
     </>
   );

@@ -1,7 +1,7 @@
-import Footer15 from "@/components/footer/Footer15";
+import Footer from "@/components/footer";
 import Link from "next/link";
-import Header1 from "@/components/header/Header1";
 import React from "react";
+import Header from "@/components/header";
 
 export const metadata = {
   title: "Error 405 || Industry - Factory & Industrial React Nextjs Template",
@@ -11,7 +11,7 @@ export default function page() {
   return (
     <>
       <div className="page-wraper  ">
-        <Header1 />
+        <Header />
         <div className="page-content bg-white">
           <div className="section-full dz_error-405 content-inner bg-gray">
             <div className="container">
@@ -33,7 +33,7 @@ export default function page() {
             </div>
           </div>
         </div>
-        <Footer15 />
+        <Footer />
       </div>
     </>
   );

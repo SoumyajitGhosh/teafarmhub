@@ -1,6 +1,6 @@
 import Faq1 from "@/components/faq/Faq1";
-import Footer15 from "@/components/footer/Footer15";
-import Header1 from "@/components/header/Header1";
+import Footer from "@/components/footer";
+import Header from "@/components/header";
 import Link from "next/link";
 import React from "react";
 
@@ -12,7 +12,7 @@ export default function page() {
   return (
     <>
       <div className="page-wraper  ">
-        <Header1 />
+        <Header />
         <div className="page-content bg-white">
           <div
             className="dlab-bnr-inr overlay-black-middle bg-pt"
@@ -39,7 +39,7 @@ export default function page() {
             <Faq1 />
           </div>
         </div>
-        <Footer15 />
+        <Footer />
       </div>
     </>
   );

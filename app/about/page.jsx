@@ -1,10 +1,9 @@
 import About from "@/components/about/About";
 import Banner from "@/components/about/Banner";
 import Facts from "@/components/common/Facts";
-import Pricing from "@/components/about/Pricing";
 import Testimonials from "@/components/common/Testimonials2";
-import Footer15 from "@/components/footer/Footer15";
-import Header from "@/components/header/Header1";
+import Footer from "@/components/footer";
+import Header from "@/components/header";
 import Team from "@/components/homes/Team";
 import React from "react";
 
@@ -20,11 +19,8 @@ export default function page() {
         <div className="page-content bg-white">
           {/* <Banner /> */}
           <About />
-          <Facts />
-          <Team />
-          <Testimonials />
         </div>
-        <Footer15 />
+        <Footer />
       </div>
     </>
   );
