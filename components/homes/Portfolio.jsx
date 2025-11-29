@@ -72,8 +72,7 @@ export default function Portfolio() {
             <div className="row">
               {portfolioItems2.map((item, i) => (
                 <div key={i} className="col-lg-4 col-md-6 col-sm-6 m-b30">
-                  <Link
-                    href={`/portfolio-details/${item.title}`}
+                  <div
                     style={{
                       display: "block",
                       textDecoration: "none",
@@ -170,7 +169,7 @@ export default function Portfolio() {
                     >
                       {item.description}
                     </p>
-                  </Link>
+                  </div>
                 </div>
               ))}
             </div>
