@@ -60,9 +60,13 @@ export default function Header() {
                     <React.Fragment key={i}>
                       <li>
                         <a
-                          className={`site-button sharp-sm  ${elm.className}`}
+                          className="site-button sharp-sm"
                           href={elm.href}
-                        />
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <i className={elm.className} />
+                        </a>
                       </li>{" "}
                     </React.Fragment>
                   ))}
