@@ -90,8 +90,7 @@ export default function ShopSidebar() {
                   key={product.id}
                   className="col-lg-4 col-md-6 col-sm-6 m-b30"
                 >
-                  <Link
-                    href={`/shop-product-details/${product.title}`}
+                  <div
                     style={{
                       display: "block",
                       textDecoration: "none",
@@ -188,7 +187,7 @@ export default function ShopSidebar() {
                     >
                       Premium organic tea, hand-picked from our finest estates
                     </p>
-                  </Link>
+                  </div>
                 </div>
               ))}
             </div>
