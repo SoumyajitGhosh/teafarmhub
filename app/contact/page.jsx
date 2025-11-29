@@ -4,8 +4,8 @@ import Footer from "@/components/footer";
 import Header from "@/components/header";
 
 export const metadata = {
-  title: "Contact 1 || Industry - Factory & Industrial React Nextjs Template",
-  description: "Industry - Factory & Industrial React Nextjs Template",
+  title: "Contact Us - TeaFarmHub | Visit Our Tea Estate",
+  description: "Get in touch with TeaFarmHub. Visit our organic tea plantation, book estate tours, or inquire about our premium tea products. We're here to serve you the finest teas.",
 };
 export default function page() {
   return (

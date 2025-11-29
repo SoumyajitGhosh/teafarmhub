@@ -1,14 +1,14 @@
 import BlogSingle from "@/components/blogs/BlogSingle";
 import Link from "next/link";
-import Comment from "@/components/blogs/Comment";
+// import Comment from "@/components/blogs/Comment";
 import Footer from "@/components/footer";
 import React from "react";
 import { allBlogs } from "@/data/blogs";
 import Header from "@/components/header";
 
 export const metadata = {
-  title: "Blog Single || Industry - Factory & Industrial React Nextjs Template",
-  description: "Industry - Factory & Industrial React Nextjs Template",
+  title: "Tea Articles - TeaFarmHub | Tea Knowledge & Stories",
+  description: "Explore detailed articles about tea cultivation, processing, health benefits, and the art of tea making from TeaFarmHub experts.",
 };
 export default function page({ params }) {
   const slug = params.slug.split("%20").join(" ");
@@ -40,7 +40,7 @@ export default function page({ params }) {
           <div className="content-area">
             <div className="container max-w900">
               <BlogSingle blogItem={blogItem} />
-              <Comment />
+              {/* <Comment /> */}
             </div>
           </div>
         </div>

@@ -40,19 +40,6 @@ export default function Header() {
               <span />
               <span />
             </button>
-            {/* extra nav */}
-            <div className="extra-nav">
-              <div className="extra-cell">
-                <button
-                  id="quik-search-btn"
-                  type="button"
-                  className="site-button-link"
-                >
-                  <i className="la la-search" />
-                </button>
-              </div>
-            </div>
-            {/* Quik search */}
 
             {/* main nav */}
             <div

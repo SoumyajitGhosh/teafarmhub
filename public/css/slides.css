@@ -747,7 +747,8 @@
   z-index: 2;
 }
 .beer-icon {
-  width: 60px;
+  width: 120px;
+  color: #fff;
 }
 .seperator {
   background: hsla(0, 0%, 100%, 0.25);

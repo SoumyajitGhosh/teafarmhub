@@ -466,7 +466,7 @@ export const teamMembers10 = [
   {
     name: "Nashid Martines",
     position: "Director",
-    image: "/images/our-team/pic1.jpg",
+    image: "/images/generated/image6.png",
     socialLinks: [
       { className: "fab fa-facebook-f", href: "#" },
       { className: "fab fa-twitter", href: "#" },
@@ -477,7 +477,7 @@ export const teamMembers10 = [
   {
     name: "Konne Backfield",
     position: "Designer",
-    image: "/images/our-team/pic2.jpg",
+    image: "/images/generated/image9.png",
     socialLinks: [
       { className: "fab fa-facebook-f", href: "#" },
       { className: "fab fa-twitter", href: "#" },
@@ -488,7 +488,7 @@ export const teamMembers10 = [
   {
     name: "Hackson Willingham",
     position: "Developer",
-    image: "/images/our-team/pic3.jpg",
+    image: "/images/generated/image6.png",
     socialLinks: [
       { className: "fab fa-facebook-f", href: "#" },
       { className: "fab fa-twitter", href: "#" },
@@ -499,7 +499,7 @@ export const teamMembers10 = [
   {
     name: "Konne Backfield",
     position: "Manager",
-    image: "/images/our-team/pic4.jpg",
+    image: "/images/generated/image9.png",
     socialLinks: [
       { className: "fab fa-facebook-f", href: "#" },
       { className: "fab fa-twitter", href: "#" },
@@ -510,7 +510,7 @@ export const teamMembers10 = [
   {
     name: "Nashid Martines",
     position: "Director",
-    image: "/images/our-team/pic5.jpg",
+    image: "/images/generated/image6.png",
     socialLinks: [
       { className: "fab fa-facebook-f", href: "#" },
       { className: "fab fa-twitter", href: "#" },
@@ -521,7 +521,7 @@ export const teamMembers10 = [
   {
     name: "Konne Backfield",
     position: "Designer",
-    image: "/images/our-team/pic6.jpg",
+    image: "/images/generated/image9.png",
     socialLinks: [
       { className: "fab fa-facebook-f", href: "#" },
       { className: "fab fa-twitter", href: "#" },
@@ -532,7 +532,7 @@ export const teamMembers10 = [
   {
     name: "Hackson Willingham",
     position: "Developer",
-    image: "/images/our-team/pic7.jpg",
+    image: "/images/generated/image6.png",
     socialLinks: [
       { className: "fab fa-facebook-f", href: "#" },
       { className: "fab fa-twitter", href: "#" },
@@ -543,7 +543,7 @@ export const teamMembers10 = [
   {
     name: "Konne Backfield",
     position: "Manager",
-    image: "/images/our-team/pic8.jpg",
+    image: "/images/generated/image9.png",
     socialLinks: [
       { className: "fab fa-facebook-f", href: "#" },
       { className: "fab fa-twitter", href: "#" },

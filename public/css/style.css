@@ -3998,7 +3998,7 @@ blockquote:before {
 }
 .header-transparent .is-fixed .main-bar {
   position: fixed;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: #3a2e17;
 }
 .header-transparent .top-bar {
   background-color: rgba(0, 0, 0, 0);

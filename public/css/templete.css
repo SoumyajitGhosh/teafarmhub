@@ -4371,7 +4371,7 @@ HOME 5 Box Header
   border: 0;
 }
 .header-sidenav.header-transparent .is-fixed .main-bar {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: #3a2e17;
 }
 .header-sidenav .header-nav.full-sidenav .nav > li > a.scroll.active {
   color: var(--color-primary);

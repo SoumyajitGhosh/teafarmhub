@@ -433,7 +433,7 @@ export const posts = [
     text: "Explore the fundamental differences between CTC and orthodox tea processing methods and their impact on flavor.",
     text2:
       "CTC (Crush, Tear, Curl) and orthodox tea processing represent two distinct approaches to tea manufacturing. While CTC produces uniform, strong-bodied teas ideal for tea bags, orthodox processing preserves the leaf integrity and creates complex, nuanced flavors. Our estate specializes in orthodox processing to maintain the authentic character of our highland teas.",
-    imgSrc: "/images/blog/grid/pic1.jpg",
+    imgSrc: "/images/generated/image1.png",
   },
   {
     id: 44,
@@ -447,7 +447,7 @@ export const posts = [
     text: "Discover how the withering process affects tea flavor development and quality characteristics.",
     text2:
       "Tea withering is the critical first step in tea processing where freshly plucked leaves lose moisture gradually. This controlled dehydration process triggers enzymatic changes that develop the tea's characteristic flavors. Our estate uses traditional withering troughs and careful monitoring to ensure optimal moisture levels for superior tea quality.",
-    imgSrc: "/images/blog/grid/pic2.jpg",
+    imgSrc: "/images/generated/image2.png",
   },
   {
     id: 45,
@@ -461,7 +461,7 @@ export const posts = [
     text: "Scientific research reveals numerous health benefits associated with regular tea drinking and antioxidant intake.",
     text2:
       "Regular tea consumption offers remarkable health benefits, from powerful antioxidants that combat free radicals to improved heart health and enhanced metabolism. Our organic teas contain high levels of polyphenols and catechins, making them exceptional choices for health-conscious consumers seeking natural wellness support.",
-    imgSrc: "/images/blog/grid/pic3.jpg",
+    imgSrc: "/images/generated/image3.png",
   },
   {
     id: 46,
@@ -475,7 +475,7 @@ export const posts = [
     text: "Learn about our comprehensive sustainability initiatives protecting both environment and community.",
     text2:
       "Our tea estate implements cutting-edge sustainability practices including rainwater harvesting, organic composting, solar energy utilization, biodiversity conservation, and fair labor practices. These initiatives ensure we produce premium tea while preserving our beautiful highland ecosystem for future generations.",
-    imgSrc: "/images/blog/grid/pic4.jpg",
+    imgSrc: "/images/generated/image4.png",
   },
   {
     id: 47,
@@ -489,7 +489,7 @@ export const posts = [
     text: "Uncover the mystery behind Darjeeling tea's distinctive muscatel character and seasonal variations.",
     text2:
       "Darjeeling's famous muscatel flavor emerges from a unique combination of high altitude, specific insect activity, and seasonal conditions. This prized characteristic develops primarily in second flush teas, creating wine-like notes that distinguish authentic Darjeeling from all other teas worldwide.",
-    imgSrc: "/images/blog/grid/pic1.jpg",
+    imgSrc: "/images/generated/image5.png",
   },
   {
     id: 48,
@@ -503,7 +503,7 @@ export const posts = [
     text: "Discover how tea estate tourism creates economic opportunities while preserving traditional culture.",
     text2:
       "Tea tourism generates sustainable income for local communities through estate visits, homestays, and cultural experiences. Visitors gain authentic insights into tea cultivation while supporting rural livelihoods, promoting traditional crafts, and encouraging environmental conservation in tea-growing regions.",
-    imgSrc: "/images/blog/grid/pic2.jpg",
+    imgSrc: "/images/generated/image6.png",
   },
   {
     id: 49,
@@ -517,7 +517,7 @@ export const posts = [
     text: "Understanding the unique properties of monsoon season teas and their best uses.",
     text2:
       "Monsoon flush teas, harvested during the rainy season, develop stronger, bolder flavors compared to delicate first flush varieties. While they lack the subtle complexity of premium flushes, these robust teas are perfect for masala chai and milk tea preparations favored throughout India.",
-    imgSrc: "/images/blog/grid/pic1.jpg",
+    imgSrc: "/images/generated/image7.png",
   },
   {
     id: 50,
@@ -531,7 +531,7 @@ export const posts = [
     text: "Preserving traditional hand-rolling methods that create artisanal tea experiences.",
     text2:
       "Traditional hand-rolling techniques passed down through generations create distinctive tea characteristics impossible to replicate mechanically. Our master tea makers maintain these ancient practices for premium batches, producing artisanal teas with exceptional flavor complexity and visual appeal.",
-    imgSrc: "/images/blog/grid/pic2.jpg",
+    imgSrc: "/images/generated/image8.png",
   },
   {
     id: 51,
@@ -545,7 +545,7 @@ export const posts = [
     text: "Master the art of pairing different tea varieties with complementary foods and occasions.",
     text2:
       "Tea pairing enhances culinary experiences by matching tea characteristics with food flavors. Light first flush Darjeeling complements delicate pastries, while robust Assam pairs perfectly with hearty breakfasts. Green tea cleanses the palate during savory meals, creating harmonious dining experiences.",
-    imgSrc: "/images/blog/grid/pic3.jpg",
+    imgSrc: "/images/generated/image9.png",
   },
   {
     id: 52,
@@ -559,7 +559,7 @@ export const posts = [
     text: "Learn to identify premium tea quality through appearance, aroma, and taste evaluation.",
     text2:
       "Quality tea exhibits specific characteristics including well-formed leaves, fresh aroma, clear liquor, balanced flavor, and pleasant aftertaste. Understanding these indicators helps consumers select superior teas and appreciate the craftsmanship behind each harvest from our highland estates.",
-    imgSrc: "/images/blog/grid/pic4.jpg",
+    imgSrc: "/images/generated/image10.png",
   },
   {
     id: 53,
@@ -573,7 +573,7 @@ export const posts = [
     text: "Exploring enzymatic oxidation processes that transform green leaves into various tea types.",
     text2:
       "Tea fermentation, technically an oxidation process, determines whether leaves become green, oolong, or black tea. Controlling oxidation timing and conditions requires expertise passed through generations. Our tea masters precisely manage this crucial stage to develop signature flavor profiles in each batch.",
-    imgSrc: "/images/blog/grid/pic1.jpg",
+    imgSrc: "/images/generated/image11.png",
   },
   {
     id: 54,
@@ -587,7 +587,7 @@ export const posts = [
     text: "Balancing centuries-old practices with modern technology for consistent quality excellence.",
     text2:
       "Our estate harmoniously blends traditional tea wisdom with contemporary innovations. While maintaining hand-plucking and orthodox processing, we employ modern quality testing, climate monitoring, and sustainable practices to ensure our teas meet international standards while preserving authentic character.",
-    imgSrc: "/images/blog/grid/pic2.jpg",
+    imgSrc: "/images/generated/image12.png",
   },
 ];
 

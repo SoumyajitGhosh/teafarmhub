@@ -135,9 +135,9 @@ export default function Nav() {
       >
         <Link
           onClick={() => setMenuOpen1((pre) => (pre == "shop" ? "" : "shop"))}
-          href={"/shop"}
+          href={"/products"}
         >
-          Shop
+          Products
         </Link>
       </li>
       <li

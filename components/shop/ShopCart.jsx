@@ -113,7 +113,7 @@ export default function ShopCart() {
               <div className="row mb-5 gap-3 align-items-center">
                 <div className="col-6">Your cart is empty</div>
                 <div className="col-5">
-                  <Link href={"/shop"}>
+                  <Link href={"/products"}>
                     <button className="site-button" type="button">
                       Shop Now
                     </button>

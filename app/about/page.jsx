@@ -8,8 +8,8 @@ import Team from "@/components/homes/Team";
 import React from "react";
 
 export const metadata = {
-  title: "About || Industry - Factory & Industrial React Nextjs Template",
-  description: "Industry - Factory & Industrial React Nextjs Template",
+  title: "About Us - TeaFarmHub | Organic Tea Plantation & Heritage",
+  description: "Discover TeaFarmHub's story - a legacy of organic tea cultivation with generations of expertise. Learn about our sustainable farming practices and commitment to premium quality teas.",
 };
 export default function page() {
   return (

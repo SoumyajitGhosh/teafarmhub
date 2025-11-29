@@ -4,15 +4,18 @@ import React from "react";
 import Link from "next/link";
 import Header from "@/components/header";
 export const metadata = {
-  title: "Blog Grid 3 || Industry - Factory & Industrial React Nextjs Template",
-  description: "Industry - Factory & Industrial React Nextjs Template",
+  title: "Tea Blog - TeaFarmHub | Stories, Tips & Tea Culture",
+  description: "Explore our tea blog for insights on organic tea cultivation, brewing techniques, health benefits, and the rich culture of tea. Learn from our tea experts and heritage.",
 };
 export default function page() {
   return (
     <>
       <div className="page-wraper  ">
         <Header />
-        <div className="page-content" style={{ background: "#fbf8e8" }}>
+        <div
+          className="page-content"
+          style={{ background: "#fbf8e8", padding: "40px 0px" }}
+        >
           {" "}
           {/* <div
             className="dlab-bnr-inr overlay-black-middle bg-pt"

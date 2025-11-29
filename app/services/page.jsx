@@ -8,8 +8,8 @@ import Cta from "@/components/service/Cta";
 import React from "react";
 
 export const metadata = {
-  title: "Services 2 || Industry - Factory & Industrial React Nextjs Template",
-  description: "Industry - Factory & Industrial React Nextjs Template",
+  title: "Our Services - TeaFarmHub | Tea Cultivation & Estate Tours",
+  description: "Discover our comprehensive tea services including organic cultivation, estate tours, tea tasting experiences, and custom tea blending. Experience the art of tea making.",
 };
 export default function page() {
   return (

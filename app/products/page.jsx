@@ -4,10 +4,11 @@ import Shop from "@/components/shop/Shop";
 import ShopFeatures from "@/components/shop/ShopFeatures";
 import React from "react";
 import Header from "@/components/header";
+import ShopSidebar from "@/components/shop/ShopSidebar";
 
 export const metadata = {
-  title: "Shop || Industry - Factory & Industrial React Nextjs Template",
-  description: "Industry - Factory & Industrial React Nextjs Template",
+  title: "Our Tea Collection - TeaFarmHub | Premium Organic Teas",
+  description: "Explore our curated selection of premium organic teas including Green Tea, Black Tea, Oolong Tea, and more. Hand-picked from our finest highland estates with traditional craftsmanship.",
 };
 export default function page() {
   return (
@@ -33,7 +34,7 @@ export default function page() {
               </div>
             </div>
           </div> */}
-          <Shop />
+          <ShopSidebar />
 
           <ShopFeatures />
         </div>

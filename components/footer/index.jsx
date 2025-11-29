@@ -73,7 +73,7 @@ export default function Footer12() {
               <div className="widget widget_services border-0">
                 <h5 className="m-b30 text-white font-weight-bold">Company</h5>
                 <ul>
-                  {footerLinks2.slice(0, 5).map((link, index) => (
+                  {footerLinks2.slice(0, 3).map((link, index) => (
                     <li key={index}>
                       <Link
                         href={link.href}
@@ -92,7 +92,7 @@ export default function Footer12() {
                   Useful Link
                 </h5>
                 <ul>
-                  {footerLinks2.slice(5, 10).map((link, index) => (
+                  {footerLinks2.slice(3, 5).map((link, index) => (
                     <li key={index}>
                       <Link
                         href={link.href}

@@ -21,9 +21,9 @@
     left top,
     left bottom,
     from(transparent),
-    to(rgba(0, 0, 0, 0.9))
+    to(#3a2e17)
   );
-  background: rgba(0, 0, 0, 0.4);
+  background: #3a2e17 !important;
   bottom: 0;
   left: 0;
 }

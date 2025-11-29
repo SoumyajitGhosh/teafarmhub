@@ -2,8 +2,8 @@ import Link from "next/link";
 import React from "react";
 
 export const metadata = {
-  title: "Error 404 || Industry - Factory & Industrial React Nextjs Template",
-  description: "Industry - Factory & Industrial React Nextjs Template",
+  title: "Page Not Found - TeaFarmHub | 404 Error",
+  description: "The page you're looking for cannot be found. Return to TeaFarmHub to explore our premium organic tea collection and plantation experiences.",
 };
 export default function page() {
   return (

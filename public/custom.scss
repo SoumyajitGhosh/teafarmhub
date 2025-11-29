@@ -3,8 +3,7 @@
 ==========================*/
 /* 
   Tea Plantation Theme Font System:
-  - Montserrat: Clean, modern geometric sans-serif for headings
-  - Crimson Pro: Elegant serif for body text (organic sophistication)
+  - Quicksand: Clean, modern rounded sans-serif for all text
 */
 
 // Primary Font Variables
@@ -18,10 +17,10 @@ input,
 textarea,
 select,
 button {
-  font-family: "Crimson Pro", serif !important;
+  font-family: "Quicksand", sans-serif !important;
 }
 
-// Headings use Montserrat
+// Headings use Quicksand
 h1, h2, h3, h4, h5, h6,
 .title,
 .section-head h2,
@@ -30,16 +29,16 @@ h1, h2, h3, h4, h5, h6,
 .menu,
 .header-nav,
 .footer-title {
-  font-family: "Montserrat", sans-serif !important;
+  font-family: "Quicksand", sans-serif !important;
 }
 
-// Override specific Poppins instances
+// Override specific instances to use Quicksand
 .c-name,
 .c-text1,
 .c-text2,
 .c-time-value,
 .c-time-lavel {
-  font-family: "Montserrat", sans-serif !important;
+  font-family: "Quicksand", sans-serif !important;
 }
 
 /*==========================
@@ -73,7 +72,7 @@ h1, h2, h3, h4, h5, h6,
     }
     
     .dlab-title {
-      font-family: "Montserrat", sans-serif !important;
+      font-family: "Quicksand", sans-serif !important;
       font-weight: 600;
       letter-spacing: 0.3px;
     }
@@ -90,11 +89,13 @@ h1, h2, h3, h4, h5, h6,
   }
   
   .site-button {
-    font-family: "Montserrat", sans-serif !important;
+    font-family: "Quicksand", sans-serif !important;
     letter-spacing: 0.5px;
     font-weight: 500;
     text-transform: uppercase;
     font-size: 12px;
+    background-color: #3a2e17 !important;
+    border-color: #3a2e17 !important;
   }
 }
 
@@ -131,7 +132,7 @@ h1, h2, h3, h4, h5, h6,
   }
   
   .testimonial-name {
-    font-family: "Montserrat", sans-serif !important;
+    font-family: "Quicksand", sans-serif !important;
     font-weight: 600;
   }
   
@@ -199,7 +200,7 @@ h1, h2, h3, h4, h5, h6,
     line-height: 30px;
     font-weight: 500;
     color: rgb(255, 255, 255);
-    font-family: Poppins;
+    font-family: "Quicksand", sans-serif;
     visibility: inherit;
     transition: none;
     text-align: inherit;
@@ -222,7 +223,7 @@ h1, h2, h3, h4, h5, h6,
     line-height: 100px;
     font-weight: 700;
     color: rgb(255, 255, 255);
-    font-family: Poppins;
+    font-family: "Quicksand", sans-serif;
     letter-spacing: -5px;
     visibility: inherit;
     transition: none;
@@ -244,7 +245,7 @@ h1, h2, h3, h4, h5, h6,
     line-height: 100px;
     font-weight: 300;
     color: rgb(255, 255, 255);
-    font-family: Poppins;
+    font-family: "Quicksand", sans-serif;
     letter-spacing: -5px;
     visibility: inherit;
     transition: none;
@@ -283,7 +284,7 @@ h1, h2, h3, h4, h5, h6,
         line-height: 25px;
         font-weight: 600;
         color: rgb(255, 255, 255);
-        font-family: Poppins;
+        font-family: "Quicksand", sans-serif;
         visibility: inherit;
         transition: none;
         text-align: center;
@@ -308,7 +309,7 @@ h1, h2, h3, h4, h5, h6,
         line-height: 200px;
         font-weight: 600;
         color: rgb(255, 126, 20);
-        font-family: Poppins;
+        font-family: "Quicksand", sans-serif;
         letter-spacing: -5px;
         visibility: inherit;
         transition: none;

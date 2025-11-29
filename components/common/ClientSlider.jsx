@@ -41,9 +41,34 @@ export default function ClientSlider({
       {clientLogos.map((logoSrc, index) => (
         <SwiperSlide className="item" key={index}>
           <div className="ow-client-logo">
-            <div className={`client-logo ${border ? "border" : ""}`}>
-              <a href="#">
-                <Image width={300} height={200} src={logoSrc} alt="" />
+            <div className={`client-logo ${border ? "border" : ""}`} style={{ 
+              display: "flex", 
+              justifyContent: "center", 
+              alignItems: "center",
+              padding: "10px"
+            }}>
+              <a href="#" style={{ 
+                display: "block",
+                width: "120px",
+                height: "120px",
+                borderRadius: "50%",
+                overflow: "hidden",
+                border: "3px solid #ddd",
+                padding: "10px",
+                background: "white"
+              }}>
+                <Image 
+                  width={300} 
+                  height={200} 
+                  src={logoSrc} 
+                  alt="Client logo" 
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                    borderRadius: "50%"
+                  }}
+                />
               </a>
             </div>
           </div>

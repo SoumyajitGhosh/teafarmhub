@@ -15,7 +15,7 @@ export default function Services() {
     <div
       className="section-full bg-secondry content-inner"
       style={{
-        padding: "50px 0",
+        padding: "40px 0",
         background: "#fbf8e8",
       }}
     >

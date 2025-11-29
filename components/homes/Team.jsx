@@ -9,7 +9,7 @@ export default function Team() {
   return (
     <div
       className="section-full content-inner bg-gray"
-      style={{ padding: "20px 0", background: "var(--color-tertiary)" }}
+      style={{ padding: "40px 0", background: "var(--color-tertiary)" }}
     >
       <div className="container">
         <div
@@ -110,51 +110,71 @@ export default function Team() {
                   <ul className="dlab-social-icon" style={{ marginTop: "6px" }}>
                     <li>
                       <a
-                        className="site-button circle-sm gray-light fab fa-facebook-f"
+                        className="site-button circle-sm gray-light"
                         href="#"
                         style={{
                           width: "24px",
                           height: "24px",
                           lineHeight: "24px",
                           fontSize: "10px",
+                          display: "inline-flex",
+                          alignItems: "center",
+                          justifyContent: "center",
                         }}
-                      ></a>
+                      >
+                        <i className="fab fa-facebook-f"></i>
+                      </a>
                     </li>{" "}
                     <li>
                       <a
-                        className="site-button circle-sm gray-light fab fa-twitter"
+                        className="site-button circle-sm gray-light"
                         href="#"
                         style={{
                           width: "24px",
                           height: "24px",
                           lineHeight: "24px",
                           fontSize: "10px",
+                          display: "inline-flex",
+                          alignItems: "center",
+                          justifyContent: "center",
                         }}
-                      ></a>
+                      >
+                        <i className="fab fa-twitter"></i>
+                      </a>
                     </li>{" "}
                     <li>
                       <a
-                        className="site-button circle-sm gray-light fab fa-linkedin-in"
+                        className="site-button circle-sm gray-light"
                         href="#"
                         style={{
                           width: "24px",
                           height: "24px",
                           lineHeight: "24px",
                           fontSize: "10px",
+                          display: "inline-flex",
+                          alignItems: "center",
+                          justifyContent: "center",
                         }}
-                      ></a>
+                      >
+                        <i className="fab fa-linkedin-in"></i>
+                      </a>
                     </li>{" "}
                     <li>
                       <a
-                        className="site-button circle-sm gray-light fab fa-pinterest-p"
+                        className="site-button circle-sm gray-light"
                         href="#"
                         style={{
                           width: "24px",
                           height: "24px",
                           lineHeight: "24px",
                           fontSize: "10px",
+                          display: "inline-flex",
+                          alignItems: "center",
+                          justifyContent: "center",
                         }}
-                      ></a>
+                      >
+                        <i className="fab fa-pinterest-p"></i>
+                      </a>
                     </li>
                   </ul>
                 </div>

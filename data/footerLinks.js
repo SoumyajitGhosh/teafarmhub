@@ -10,16 +10,11 @@ export const footerLinks = [
 ];
 
 export const footerLinks2 = [
-  { href: "/about-1", label: "About Us" },
-  { href: "/blog-grid-2", label: "Blog" },
-  { href: "/services-1", label: "Services" },
-  { href: "/privacy-policy", label: "Privacy Policy" },
-  { href: "/portfolio-grid-2", label: "Projects" },
-  { href: "/help-desk", label: "Help Desk" },
-  { href: "/shop", label: "Shop" },
-  { href: "/contact-1", label: "Contact" },
-  { href: "/portfolio-grid-2", label: "Portfolio" },
-  { href: "/team-1", label: "Team" },
+  { href: "/about", label: "About Us" },
+  { href: "/blog", label: "Blog" },
+  { href: "/products", label: "Products" },
+  { href: "/contact", label: "Contact Us" },
+  { href: "/team", label: "Team" },
 ];
 
 export const socialLinks = [

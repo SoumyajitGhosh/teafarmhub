@@ -1,3 +1,4 @@
+"use client";
 import { posts } from "@/data/blogs";
 import Link from "next/link";
 import Image from "next/image";
@@ -12,7 +13,7 @@ export default function Blog4() {
           <div
             key={i}
             className="post card-container col-lg-3 col-md-4 col-sm-6 col-xs-12"
-            style={{ marginBottom: "12px" }}
+            style={{ marginBottom: "20px", display: "flex" }}
           >
             <div
               className="blog-post blog-grid blog-rounded blog-effect1"
@@ -21,26 +22,50 @@ export default function Blog4() {
                 margin: "0 auto",
                 border: "4px solid var(--color-tertiary)",
                 overflow: "hidden",
+                display: "flex",
+                flexDirection: "column",
+                height: "100%",
+                width: "100%",
               }}
             >
-              <div className="dlab-post-media dlab-img-effect">
+              <div
+                className="dlab-post-media dlab-img-effect"
+                style={{
+                  position: "relative",
+                  width: "100%",
+                  height: "170px",
+                  overflow: "hidden",
+                  backgroundColor: "#f0f0f0",
+                  flexShrink: 0,
+                }}
+              >
                 <Link href={`/blog-single/${elm.title}`}>
                   <Image
                     alt={elm.title || "Blog image"}
                     src={elm.imgSrc}
                     width={260}
                     height={170}
+                    sizes="260px"
+                    unoptimized
                     style={{
                       width: "100%",
-                      height: "auto",
+                      height: "100%",
+                      objectFit: "cover",
                       display: "block",
                     }}
+                    priority={i < 4}
                   />
                 </Link>
               </div>
               <div
                 className="dlab-info"
-                style={{ padding: "10px", background: "var(--color-tertiary)" }}
+                style={{
+                  padding: "10px",
+                  background: "var(--color-tertiary)",
+                  display: "flex",
+                  flexDirection: "column",
+                  flex: 1,
+                }}
               >
                 <div className="dlab-post-meta" style={{ marginBottom: "6px" }}>
                   <ul style={{ fontSize: "10px", marginBottom: "0" }}>
@@ -57,7 +82,7 @@ export default function Blog4() {
                 </div>
                 <div
                   className="dlab-post-title"
-                  style={{ marginBottom: "6px" }}
+                  style={{ marginBottom: "6px", flex: 1 }}
                 >
                   <h4
                     className="post-title"
@@ -69,26 +94,11 @@ export default function Blog4() {
                       WebkitLineClamp: "2",
                       WebkitBoxOrient: "vertical",
                       overflow: "hidden",
+                      minHeight: "34px",
                     }}
                   >
                     <Link href={`/blog-single/${elm.title}`}>{elm.title}</Link>
                   </h4>
-                </div>
-                <div className="dlab-post-text" style={{ marginBottom: "8px" }}>
-                  <p
-                    style={{
-                      fontSize: "11px",
-                      lineHeight: "1.4",
-                      marginBottom: "0",
-                      display: "-webkit-box",
-                      WebkitLineClamp: "2",
-                      WebkitBoxOrient: "vertical",
-                      overflow: "hidden",
-                      color: "white",
-                    }}
-                  >
-                    {elm.text}
-                  </p>
                 </div>
                 <div className="dlab-post-readmore">
                   <Link

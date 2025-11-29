@@ -103,9 +103,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" dir="ltr">
       <head>
-        {/* Primary fonts: Montserrat (headings) + Crimson Pro (body) + Great Vibes (cursive) */}
+        {/* Primary font: Quicksand */}
         <link
-          href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300;400;500;600;700&family=Great+Vibes&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
           rel="stylesheet"
         />
       </head>

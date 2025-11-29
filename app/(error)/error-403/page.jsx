@@ -3,8 +3,8 @@ import Header from "@/components/header";
 import React from "react";
 
 export const metadata = {
-  title: "Error 403 || Industry - Factory & Industrial React Nextjs Template",
-  description: "Industry - Factory & Industrial React Nextjs Template",
+  title: "Access Forbidden - TeaFarmHub | 403 Error",
+  description: "Access to this page is restricted. Please contact TeaFarmHub support if you believe this is an error.",
 };
 export default function page() {
   return (

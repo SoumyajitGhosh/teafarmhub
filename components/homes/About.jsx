@@ -8,7 +8,7 @@ export default function About() {
       className="section-full content-inner"
       style={{
         background: "linear-gradient(135deg, #f8f6f0 0%, #ebe8df 100%)",
-        padding: "80px 0",
+        padding: "40px 0",
         position: "relative",
         overflow: "hidden",
       }}

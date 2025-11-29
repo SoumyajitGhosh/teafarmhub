@@ -4,8 +4,8 @@ import React from "react";
 import Header from "@/components/header";
 
 export const metadata = {
-  title: "Error 405 || Industry - Factory & Industrial React Nextjs Template",
-  description: "Industry - Factory & Industrial React Nextjs Template",
+  title: "Server Error - TeaFarmHub | 405 Error",
+  description: "Method not allowed. Please try again or contact TeaFarmHub support for assistance.",
 };
 export default function page() {
   return (

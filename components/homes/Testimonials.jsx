@@ -156,7 +156,7 @@ export default function Testimonials() {
               </div>
             </SwiperSlide>
           ))}
-          <div className="owl-dots spt1" style={{ marginTop: "15px" }}></div>
+          {/* <div className="owl-dots spt1" style={{ marginTop: "15px" }}></div> */}
         </Swiper>
       </div>
     </div>
