@@ -192,7 +192,7 @@ export default function About() {
                         fontSize: "10px",
                         letterSpacing: "1.5px",
                         textTransform: "uppercase",
-                        color: "#5d4037",
+                        color: "var(--color-button)",
                         margin: 0,
                         fontWeight: "600",
                       }}
@@ -300,12 +300,13 @@ export default function About() {
                   <div className="video-play-icon">
                     <a
                       onClick={() => setOpen(true)}
-                      className="popup-youtube video bg-primary"
+                      className="popup-youtube video"
                       style={{
                         width: "60px",
                         height: "60px",
                         lineHeight: "60px",
                         fontSize: "20px",
+                        background: "var(--color-button)",
                       }}
                     >
                       <i className="fas fa-play" />

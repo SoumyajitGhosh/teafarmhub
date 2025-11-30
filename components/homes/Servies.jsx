@@ -131,7 +131,7 @@ export default function Services() {
                       className={service.icon}
                       style={{
                         fontSize: "32px",
-                        color: "#5d4037",
+                        color: "var(--color-button)",
                       }}
                     />
                   </div>
@@ -184,7 +184,7 @@ export default function Services() {
                     <p
                       style={{
                         fontSize: "11px",
-                        color: "#5d4037",
+                        color: "var(--color-button)",
                         fontWeight: "600",
                         letterSpacing: "1px",
                         textTransform: "uppercase",

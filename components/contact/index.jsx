@@ -28,7 +28,7 @@ export default function Contact3() {
       {/* contact area */}
       <div
         className="section-full content-inner bg-[#fbf8e8] contact-style-1"
-        style={{ paddingTop: "80px", paddingBottom: "50px" }}
+        style={{ paddingTop: "120px", paddingBottom: "50px" }}
       >
         <div className="container">
           <div className="row">

@@ -182,6 +182,7 @@ export default function ShopSidebar() {
                         color: "#666",
                         lineHeight: "1.6",
                         margin: "0",
+                        fontWeight: 500,
                         textAlign: "center",
                       }}
                     >

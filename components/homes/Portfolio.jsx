@@ -165,6 +165,7 @@ export default function Portfolio() {
                         lineHeight: "1.6",
                         margin: "0",
                         textAlign: "center",
+                        fontWeight: 500,
                       }}
                     >
                       {item.description}
@@ -186,7 +187,7 @@ export default function Portfolio() {
                 href="/products"
                 style={{
                   padding: "16px 48px",
-                  backgroundColor: "#8b674f",
+                  backgroundColor: "var(--color-button)",
                   color: "#fff",
                   borderRadius: "4px",
                   textDecoration: "none",
@@ -201,13 +202,14 @@ export default function Portfolio() {
                   boxShadow: "0 4px 12px rgba(139, 103, 79, 0.3)",
                 }}
                 onMouseEnter={(e) => {
-                  e.currentTarget.style.backgroundColor = "#6b5544";
+                  e.currentTarget.style.backgroundColor =
+                    "var(--color-secondry)";
                   e.currentTarget.style.transform = "translateY(-2px)";
                   e.currentTarget.style.boxShadow =
                     "0 6px 16px rgba(139, 103, 79, 0.4)";
                 }}
                 onMouseLeave={(e) => {
-                  e.currentTarget.style.backgroundColor = "#8b674f";
+                  e.currentTarget.style.backgroundColor = "var(--color-button)";
                   e.currentTarget.style.transform = "translateY(0)";
                   e.currentTarget.style.boxShadow =
                     "0 4px 12px rgba(139, 103, 79, 0.3)";

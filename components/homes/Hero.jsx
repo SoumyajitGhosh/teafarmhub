@@ -26,10 +26,23 @@ export default function Hero() {
             height="160"
           />
           {/* <span className="seperator" /> */}
-          <h1 className="title text-center style4 hero-title-responsive">
+          <h1
+            className="title text-center style4 hero-title-responsive"
+            style={{
+              fontWeight: 900,
+              textShadow: "4px 4px 8px rgba(0, 0, 0, 0.7)",
+            }}
+          >
             TeaFarmHub
           </h1>
-          <div className="description hero-description-responsive">
+          <div
+            className="description hero-description-responsive"
+            style={{
+              textShadow: "2px 2px 5px rgba(0, 0, 0, 0.7)",
+              fontWeight: 600,
+              lineHeight: "30px",
+            }}
+          >
             Fine teas crafted in harmony with nature, nurtured with tradition
             and cosmic wisdom.
             <br className="hide-mobile-br" />
@@ -37,12 +50,34 @@ export default function Hero() {
             intended.
           </div>
           <div className="hero-buttons-responsive">
-            <Link className="site-button hover-bg-white-btn" href="/contact">
-              <i className="la la-phone icon" />
+            <Link
+              className="site-button hover-bg-white-btn"
+              href="/contact"
+              style={{ borderRadius: "5px" }}
+            >
+              <i
+                className="la la-phone icon"
+                style={{
+                  fontSize: "30px",
+                  marginTop: "-5px",
+                  marginRight: "8px",
+                }}
+              />
               Visit Our Estate
             </Link>
-            <Link className="site-button hover-bg-white-btn" href="/products">
-              <i className="la la-leaf icon" />
+            <Link
+              className="site-button hover-bg-white-btn"
+              href="/products"
+              style={{ borderRadius: "5px" }}
+            >
+              <i
+                className="la la-leaf icon"
+                style={{
+                  fontSize: "30px",
+                  marginTop: "-5px",
+                  marginRight: "8px",
+                }}
+              />
               Discover Premium Teas
             </Link>
           </div>

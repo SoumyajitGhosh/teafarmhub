@@ -13,7 +13,10 @@ export default function Blog4() {
           <div
             key={i}
             className="post card-container col-lg-3 col-md-4 col-sm-6 col-xs-12"
-            style={{ marginBottom: "20px", display: "flex" }}
+            style={{
+              marginBottom: "20px",
+              display: "flex",
+            }}
           >
             <div
               className="blog-post blog-grid blog-rounded blog-effect1"
@@ -24,6 +27,7 @@ export default function Blog4() {
                 overflow: "hidden",
                 display: "flex",
                 flexDirection: "column",
+                borderRadius: "4px",
                 height: "100%",
                 width: "100%",
               }}

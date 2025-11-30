@@ -5,7 +5,7 @@
 .header-nav .nav > li.active > a,
 .header-nav .nav > li.current-menu-item > a {
   background-color: transparent;
-  color: var(--color-primary);
+  color: white;
 }
 
 /*=== Font Size And Font Family ====*/
@@ -6827,7 +6827,7 @@ HOME 5 Box Header
 }
 
 button.scroltop {
-  background-color: var(--color-primary);
+  background-color: var(--color-button);
   box-shadow: -4px 4px 24px -10px var(--color-primary) !important;
 }
 

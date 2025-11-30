@@ -21,9 +21,9 @@
     left top,
     left bottom,
     from(transparent),
-    to(#3a2e17)
+    to(var(--color-primary))
   );
-  background: #3a2e17 !important;
+  background: var(--color-primary) !important;
   bottom: 0;
   left: 0;
 }

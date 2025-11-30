@@ -13,7 +13,7 @@ export default function Header() {
   return (
     <header
       className="site-header mo-left header header-transparent navstyle2"
-      style={pathname !== "/" ? { backgroundColor: "#3a2e17" } : {}}
+      style={pathname !== "/" ? { backgroundColor: "var(--color-button)" } : {}}
     >
       {/* main header */}
       <div className="sticky-header main-bar-wraper navbar-expand-lg">

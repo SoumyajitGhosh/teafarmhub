@@ -129,12 +129,14 @@ export default function Nav() {
         </Link>
       </li>
       <li
-        className={` ${isMenuActive("/shop") ? "active" : ""} ${
-          menuOpen1 == "shop" ? "open" : ""
+        className={` ${isMenuActive("/products") ? "active" : ""} ${
+          menuOpen1 == "products" ? "open" : ""
         }  `}
       >
         <Link
-          onClick={() => setMenuOpen1((pre) => (pre == "shop" ? "" : "shop"))}
+          onClick={() =>
+            setMenuOpen1((pre) => (pre == "products" ? "" : "products"))
+          }
           href={"/products"}
         >
           Products

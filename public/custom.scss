@@ -42,6 +42,43 @@ h1, h2, h3, h4, h5, h6,
 }
 
 /*==========================
+  Button Color Configuration
+==========================*/
+// Use color-button variable for all site buttons
+.site-button,
+.site-button.btnhover20 {
+  background-color: var(--color-button) !important;
+  border-color: var(--color-button) !important;
+}
+
+.site-button.btnhover20:hover {
+  background-color: var(--color-button) !important;
+  border-color: var(--color-button) !important;
+}
+
+// Social button circles in footer
+.site-button.circle {
+  background-color: var(--color-button) !important;
+  border-color: var(--color-button) !important;
+}
+
+.site-button.circle:hover {
+  background-color: var(--color-button) !important;
+  border-color: var(--color-button) !important;
+  opacity: 0.8;
+}
+
+// Social media icons in contact page
+.dlab-social-icon a.bg-primary {
+  background-color: var(--color-button) !important;
+}
+
+.dlab-social-icon a.bg-primary:hover {
+  background-color: var(--color-button) !important;
+  opacity: 0.8;
+}
+
+/*==========================
   Makaibari-Inspired Theme Enhancements
 ==========================*/
 
@@ -94,8 +131,8 @@ h1, h2, h3, h4, h5, h6,
     font-weight: 500;
     text-transform: uppercase;
     font-size: 12px;
-    background-color: #3a2e17 !important;
-    border-color: #3a2e17 !important;
+    background-color: var(--color-button) !important;
+    border-color: var(--color-button) !important;
   }
 }
 

@@ -2561,6 +2561,7 @@ blockquote:before {
   left: 20px;
   top: 20px;
   font-style: normal;
+  opacity: 0.5;
 }
 .size-auto,
 .size-full,
@@ -3998,7 +3999,7 @@ blockquote:before {
 }
 .header-transparent .is-fixed .main-bar {
   position: fixed;
-  background-color: #3a2e17;
+  background-color: var(--color-button);
 }
 .header-transparent .top-bar {
   background-color: rgba(0, 0, 0, 0);
@@ -8692,6 +8693,7 @@ ul[class*="list-"] {
 .dlab-tabs .nav > li > a:focus,
 .dlab-tabs .nav > li > a:hover {
   background-color: transparent;
+  
 }
 .dlab-tabs .nav li a:hover {
   border: 1px solid transparent;
@@ -14567,7 +14569,7 @@ ol.commentlist li .star-rating {
   }
   .navstyle2 .header-nav .nav > li.active > a:after,
   .navstyle2 .header-nav .nav > li:hover > a:after {
-    box-shadow: inset 0 0 0 2px var(--color-primary);
+    box-shadow: inset 0 0 0 2px white;
     left: 0;
     top: 0;
   }

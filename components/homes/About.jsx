@@ -82,7 +82,7 @@ export default function About() {
                   letterSpacing: "3px",
                   fontWeight: "600",
                   textTransform: "uppercase",
-                  color: "#5d4037",
+                  color: "var(--color-button)",
                   display: "block",
                   marginBottom: "20px",
                 }}
@@ -107,7 +107,7 @@ export default function About() {
                 nature & <br />
                 <span
                   style={{
-                    color: "#5d4037",
+                    color: "var(--color-button)",
                     fontWeight: "400",
                     fontStyle: "italic",
                   }}
@@ -152,7 +152,7 @@ export default function About() {
                         width: "6px",
                         height: "6px",
                         borderRadius: "50%",
-                        backgroundColor: "#5d4037",
+                        backgroundColor: "var(--color-button)",
                       }}
                     />
                     <span
@@ -160,7 +160,7 @@ export default function About() {
                         fontSize: "12px",
                         letterSpacing: "1px",
                         textTransform: "uppercase",
-                        color: "#5d4037",
+                        color: "var(--color-button)",
                         fontWeight: "500",
                       }}
                     >
@@ -179,7 +179,7 @@ export default function About() {
                   letterSpacing: "2px",
                   textTransform: "uppercase",
                   fontWeight: "600",
-                  backgroundColor: "#5d4037",
+                  backgroundColor: "var(--color-button)",
                   color: "#fff",
                   border: "none",
                   borderRadius: "2px",
@@ -247,7 +247,7 @@ export default function About() {
                       fontSize: "10px",
                       letterSpacing: "1.5px",
                       textTransform: "uppercase",
-                      color: "#5d4037",
+                      color: "var(--color-button)",
                       margin: 0,
                       fontWeight: "600",
                     }}
@@ -269,7 +269,7 @@ export default function About() {
               {/* Quote */}
               <blockquote
                 style={{
-                  borderLeft: "3px solid #5d4037",
+                  borderLeft: "3px solid var(--color-button)",
                   paddingLeft: "20px",
                   marginBottom: "32px",
                   fontStyle: "italic",
@@ -304,7 +304,7 @@ export default function About() {
                     style={{
                       fontSize: "28px",
                       fontWeight: "300",
-                      color: "#5d4037",
+                      color: "var(--color-button)",
                       margin: "0 0 4px 0",
                       lineHeight: "1",
                     }}
@@ -337,7 +337,7 @@ export default function About() {
                     style={{
                       fontSize: "28px",
                       fontWeight: "300",
-                      color: "#5d4037",
+                      color: "var(--color-button)",
                       margin: "0 0 4px 0",
                       lineHeight: "1",
                     }}
@@ -362,7 +362,7 @@ export default function About() {
               {/* Year Card */}
               <div
                 style={{
-                  backgroundColor: "#5d4037",
+                  backgroundColor: "var(--color-button)",
                   padding: "24px",
                   borderRadius: "8px",
                   textAlign: "center",
