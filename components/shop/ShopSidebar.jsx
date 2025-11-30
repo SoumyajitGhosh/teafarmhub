@@ -32,173 +32,182 @@ export default function ShopSidebar() {
     }
   };
   return (
-    <div className="section-full content-inner">
-      {/* Product */}
-      <div className="container">
-        <div className="row">
-          <div
-            className="col-lg-3 col-md-4 m-b30"
-            style={{ paddingTop: window.innerWidth < 768 && "20px" }}
-          >
-            <aside className="side-bar shop-categories sticky-top">
-              <div className="widget recent-posts-entry">
-                <div
-                  className="dlab-accordion advanced-search toggle"
-                  id="accordion1"
-                >
-                  <div className="panel">
-                    <div className="acod-head">
-                      <h5 className="acod-title">
-                        <a data-bs-toggle="collapse" href="#categories">
-                          Tea Categories
-                        </a>
-                      </h5>
-                    </div>
-                    <div id="categories" className="acod-body collapse show">
-                      <div className="acod-content">
-                        <div className="widget widget_services">
-                          <ul>
-                            {teaCategories.map((category) => (
-                              <li
-                                key={category.id}
-                                style={{
-                                  cursor: "pointer",
-                                  fontWeight:
-                                    selectedCategory === category.id
-                                      ? "600"
-                                      : "400",
-                                  color:
-                                    selectedCategory === category.id
-                                      ? "#8b674f"
-                                      : "#666",
-                                }}
-                                onClick={() => handleCategoryClick(category.id)}
-                              >
-                                <a>{category.name}</a>
-                              </li>
-                            ))}
-                          </ul>
+    <>
+      <div className="section-full content-inner">
+        {/* Product */}
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-3 col-md-4 m-b30 shop-sidebar-col">
+              <aside className="side-bar shop-categories sticky-top">
+                <div className="widget recent-posts-entry">
+                  <div
+                    className="dlab-accordion advanced-search toggle"
+                    id="accordion1"
+                  >
+                    <div className="panel">
+                      <div className="acod-head">
+                        <h5 className="acod-title">
+                          <a data-bs-toggle="collapse" href="#categories">
+                            Tea Categories
+                          </a>
+                        </h5>
+                      </div>
+                      <div id="categories" className="acod-body collapse show">
+                        <div className="acod-content">
+                          <div className="widget widget_services">
+                            <ul>
+                              {teaCategories.map((category) => (
+                                <li
+                                  key={category.id}
+                                  style={{
+                                    cursor: "pointer",
+                                    fontWeight:
+                                      selectedCategory === category.id
+                                        ? "600"
+                                        : "400",
+                                    color:
+                                      selectedCategory === category.id
+                                        ? "#8b674f"
+                                        : "#666",
+                                  }}
+                                  onClick={() =>
+                                    handleCategoryClick(category.id)
+                                  }
+                                >
+                                  <a>{category.name}</a>
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </aside>
-          </div>
-          <div className="col-lg-9 col-md-8 m-b30">
-            <div className="row">
-              {filteredProducts.map((product, i) => (
-                <div
-                  key={product.id}
-                  className="col-lg-4 col-md-6 col-sm-6 m-b30"
-                >
+              </aside>
+            </div>
+            <div className="col-lg-9 col-md-8 m-b30">
+              <div className="row">
+                {filteredProducts.map((product, i) => (
                   <div
-                    style={{
-                      display: "block",
-                      textDecoration: "none",
-                      transition: "all 0.3s ease",
-                    }}
-                    onMouseEnter={() => setHoveredIndex(i)}
-                    onMouseLeave={() => setHoveredIndex(null)}
+                    key={product.id}
+                    className="col-lg-4 col-md-6 col-sm-6 m-b30"
                   >
-                    {/* Product Image */}
                     <div
                       style={{
-                        position: "relative",
-                        width: "100%",
-                        paddingBottom: "100%",
-                        overflow: "hidden",
-                        borderRadius: "8px",
-                        marginBottom: "20px",
+                        display: "block",
+                        textDecoration: "none",
+                        transition: "all 0.3s ease",
                       }}
+                      onMouseEnter={() => setHoveredIndex(i)}
+                      onMouseLeave={() => setHoveredIndex(null)}
                     >
-                      {/* Tag - Optional */}
-                      {product.tag ? (
-                        <div
+                      {/* Product Image */}
+                      <div
+                        style={{
+                          position: "relative",
+                          width: "100%",
+                          paddingBottom: "100%",
+                          overflow: "hidden",
+                          borderRadius: "8px",
+                          marginBottom: "20px",
+                        }}
+                      >
+                        {/* Tag - Optional */}
+                        {product.tag ? (
+                          <div
+                            style={{
+                              position: "absolute",
+                              top: "12px",
+                              left: "12px",
+                              backgroundColor: product.tagColor,
+                              color: "#fff",
+                              padding: "6px 14px",
+                              fontSize: "10px",
+                              fontWeight: "700",
+                              letterSpacing: "0.5px",
+                              borderRadius: "4px",
+                              zIndex: 2,
+                              textTransform: "uppercase",
+                            }}
+                          >
+                            {product.tag}
+                          </div>
+                        ) : (
+                          <></>
+                        )}
+
+                        {/* Main Image */}
+                        <Image
+                          src={product.imgSrc}
+                          fill
+                          alt={product.title || "Tea product"}
                           style={{
-                            position: "absolute",
-                            top: "12px",
-                            left: "12px",
-                            backgroundColor: product.tagColor,
-                            color: "#fff",
-                            padding: "6px 14px",
-                            fontSize: "10px",
-                            fontWeight: "700",
-                            letterSpacing: "0.5px",
-                            borderRadius: "4px",
-                            zIndex: 2,
-                            textTransform: "uppercase",
+                            objectFit: "cover",
+                            transition: "opacity 0.3s ease",
+                            opacity: hoveredIndex === i ? 0 : 1,
                           }}
-                        >
-                          {product.tag}
-                        </div>
-                      ) : (
-                        <></>
-                      )}
+                          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                        />
 
-                      {/* Main Image */}
-                      <Image
-                        src={product.imgSrc}
-                        fill
-                        alt={product.title || "Tea product"}
-                        style={{
-                          objectFit: "cover",
-                          transition: "opacity 0.3s ease",
-                          opacity: hoveredIndex === i ? 0 : 1,
-                        }}
-                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                      />
+                        {/* Alternate Image (shown on hover) */}
+                        <Image
+                          src={product.imgSrc2 || product.imgSrc}
+                          fill
+                          alt={product.title || "Tea product"}
+                          style={{
+                            objectFit: "cover",
+                            transition: "opacity 0.3s ease",
+                            opacity: hoveredIndex === i ? 1 : 0,
+                          }}
+                          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                        />
+                      </div>
 
-                      {/* Alternate Image (shown on hover) */}
-                      <Image
-                        src={product.imgSrc2 || product.imgSrc}
-                        fill
-                        alt={product.title || "Tea product"}
+                      {/* Product Name */}
+                      <h3
                         style={{
-                          objectFit: "cover",
-                          transition: "opacity 0.3s ease",
-                          opacity: hoveredIndex === i ? 1 : 0,
+                          fontSize: "22px",
+                          fontWeight: "600",
+                          color: "#1a1a1a",
+                          margin: "0 0 12px 0",
+                          lineHeight: "1.3",
+                          textAlign: "center",
                         }}
-                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                      />
+                      >
+                        {product.title}
+                      </h3>
+
+                      {/* Product Description */}
+                      <p
+                        style={{
+                          fontSize: "14px",
+                          color: "#666",
+                          lineHeight: "1.6",
+                          margin: "0",
+                          fontWeight: 500,
+                          textAlign: "center",
+                        }}
+                      >
+                        Premium organic tea, hand-picked from our finest estates
+                      </p>
                     </div>
-
-                    {/* Product Name */}
-                    <h3
-                      style={{
-                        fontSize: "22px",
-                        fontWeight: "600",
-                        color: "#1a1a1a",
-                        margin: "0 0 12px 0",
-                        lineHeight: "1.3",
-                        textAlign: "center",
-                      }}
-                    >
-                      {product.title}
-                    </h3>
-
-                    {/* Product Description */}
-                    <p
-                      style={{
-                        fontSize: "14px",
-                        color: "#666",
-                        lineHeight: "1.6",
-                        margin: "0",
-                        fontWeight: 500,
-                        textAlign: "center",
-                      }}
-                    >
-                      Premium organic tea, hand-picked from our finest estates
-                    </p>
                   </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
           </div>
         </div>
+        {/* Product END */}
       </div>
-      {/* Product END */}
-    </div>
+
+      <style jsx>{`
+        @media (max-width: 768px) {
+          .shop-sidebar-col {
+            padding-top: 20px;
+          }
+        }
+      `}</style>
+    </>
   );
 }
