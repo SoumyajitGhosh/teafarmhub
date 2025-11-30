@@ -36,7 +36,10 @@ export default function ShopSidebar() {
       {/* Product */}
       <div className="container">
         <div className="row">
-          <div className="col-lg-3 col-md-4 m-b30">
+          <div
+            className="col-lg-3 col-md-4 m-b30"
+            style={{ paddingTop: window.innerWidth < 768 && "20px" }}
+          >
             <aside className="side-bar shop-categories sticky-top">
               <div className="widget recent-posts-entry">
                 <div

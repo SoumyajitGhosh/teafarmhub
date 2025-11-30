@@ -8,6 +8,14 @@
   color: white;
 }
 
+@media only screen and (max-width: 767px) {
+  .header-nav .nav > li.active > a,
+  .header-nav .nav > li.current-menu-item > a {
+    color: var(--color-primary);
+    font-weight: 1000;
+  }
+}
+
 /*=== Font Size And Font Family ====*/
 .dis-block {
   display: block;
